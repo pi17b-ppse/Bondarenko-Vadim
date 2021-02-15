@@ -1,0 +1,6 @@
+C:\Users\Admin\Downloads\game\tetris(WinAPI)\Debug\tetris.exe
+C:\Users\Admin\Downloads\game\tetris(WinAPI)\Debug\tetris.pdb
+C:\Users\Admin\Desktop\game\tetris(WinAPI)\Debug\tetris.exe
+C:\Users\Admin\Desktop\game\tetris(WinAPI)\Debug\tetris.pdb
+D:\Универ\7 семестр\Системное программирование\game\tetris(WinAPI)\Debug\tetris.exe
+D:\Универ\7 семестр\Системное программирование\game\tetris(WinAPI)\Debug\tetris.pdb

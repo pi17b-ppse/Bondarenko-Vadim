@@ -1,6 +1,4 @@
-#include "game.h"
-#ifdef __BORLANDC__
-#pragma resource "Script.res"
+
 #endif
 static int put_form(HINSTANCE hinst, LPCWSTR cname, LPCWSTR cap, int width, int height, UINT id);
 static tetris*    g_app = NULL;

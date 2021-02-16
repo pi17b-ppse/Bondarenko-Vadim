@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="brush" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAoAAAAEAAAAAAEAAAAAAAAAAAAggAAAAAAA=</HashCode>
+      <FileName>bitmap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bitmap" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAgCAACAAIAAAAUAQAIAAEAIAAgAQAQAAABgAAAgAAA=</HashCode>
+      <FileName>bitmap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bmp_mask" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAIAAgAEAAAAAAEAAAAACAAAAAABgAAAAAAA=</HashCode>
+      <FileName>bitmap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="font" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAABAAAAAAAAAAIAAAIAAGAAAAAAQAAAAABAAAAAgAA=</HashCode>
+      <FileName>bitmap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sprite" Collapsed="true">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAQAAAAAAAASAQAIAAAgLCBCgQAAEAABAEAAAAAA=</HashCode>
+      <FileName>bitmap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="tetris" Collapsed="true">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DACCIvQAgAEAiAAkCIEYMugAAIWgIQUkAzQhRUCBZQA=</HashCode>
+      <FileName>game.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sound" Collapsed="true">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAIAAAAAAAAAAAEAAAAClAAAAAAAwBAAAAAA=</HashCode>
+      <FileName>sound.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pod_array&lt;T&gt;" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAgAAIAAAAgAAAAAAAAAgAEAAAAAAABgAAAAEAA=</HashCode>
+      <FileName>util.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pod_block&lt;T, _max_&gt;" Collapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAiEAIAAAAAACAAAAAAAgAEQAAAAAAAgAAICAAA=</HashCode>
+      <FileName>util.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="__unnamed_struct_0009_1" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAEAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>util.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="boom_row" Collapsed="true">
+    <Position X="3" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAIAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>util.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="figure_t" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>util.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="eSpState" Collapsed="true">
+    <Position X="4.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAEBAAAAAAAAEAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>bitmap.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="e_state_game" Collapsed="true">
+    <Position X="3" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAIAAAAAIAA=</HashCode>
+      <FileName>game.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

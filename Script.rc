@@ -1,0 +1,189 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+//#include "afxres.h"
+#include "WinResrc.h"
+#define IDC_STATIC  -1
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_OPTIONS DIALOGEX 0, 0, 135, 146
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "  Настройка"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_COMBO_VELOCITY,7,19,121,103,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Скорость падения:",IDC_STATIC,7,9,68,9
+    CONTROL         "Включить звук",IDC_CHECK_AUDIO,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,34,48,71,9
+    CONTROL         "Без повторов",IDC_CHECK_REPEAT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,34,66,63,10
+    PUSHBUTTON      "Отмена",IDC_BUTTON_CANCEL,79,125,49,15
+    PUSHBUTTON      "Принять",IDC_BUTTON_OK,22,125,51,15
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_OPTIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 128
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 139
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON_APP            ICON    DISCARDABLE     "icon1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_PANE         BITMAP  DISCARDABLE     "res\\pane.bmp"
+IDB_BITMAP_ALPHA        BITMAP  DISCARDABLE     "res\\alpha.bmp"
+IDB_BITMAP_BLOCKS       BITMAP  DISCARDABLE     "res\\blocks.bmp"
+IDB_BITMAP_FILL         BITMAP  DISCARDABLE     "res\\field.bmp"
+IDB_BITMAP_GROUND       BITMAP  DISCARDABLE     "res\\ground.bmp"
+IDB_BITMAP_NEXTF        BITMAP  DISCARDABLE     "res\\other.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXT
+//
+
+IDR_TEXT_FIGURES        TEXT    DISCARDABLE     "res\\figures.txt"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+IDR_WAVE_BOOM           WAVE    DISCARDABLE     "res\\boom.wav"
+IDR_WAVE_ROTATE         WAVE    DISCARDABLE     "res\\rotate.wav"
+IDR_WAVE_STOP           WAVE    DISCARDABLE     "res\\stop.wav"
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x29L
+#else
+ FILEFLAGS 0x28L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041904b0"
+        BEGIN
+            VALUE "Comments", "Игра Тетрис\0"
+            VALUE "CompanyName", "Кудуштеев Алексей\0"
+            VALUE "FileDescription", "tetris\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "tetris\0"
+            VALUE "LegalCopyright", "Кудуштеев Алексей\0"
+            VALUE "LegalTrademarks", "Кудуштеев Алексей\0"
+            VALUE "OriginalFilename", "tetris.exe\0"
+            VALUE "PrivateBuild", "Кудуштеев Алексей\0"
+            VALUE "ProductName", "Кудуштеев Алексей\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "Кудуштеев Алексей\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x419, 1200
+    END
+END
+
+#endif    // !_MAC
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

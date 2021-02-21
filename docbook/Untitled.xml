@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://docbook.org/xml/5.1/rng/docbook.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://docbook.org/xml/5.1/sch/docbook.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<article xmlns="http://docbook.org/ns/docbook"
+    xmlns:xlink="http://www.w3.org/1999/xlink" version="5.1">
+    <info>
+        <title>Документация к проекту Tetris</title>
+        <author>
+            <personname>
+                <firstname>Вадим</firstname>
+                <surname>Бондаренко</surname>
+            </personname>
+        </author>
+        <copyright>
+            <year>2021</year>
+            <holder>Вадим Бондаренко</holder>
+        </copyright>
+    </info>
+    <chapter>
+        <title>Описание проекта</title>
+        <para>Данный проект является браузерной реализацией классической игры Тетрис.</para>
+        <para>Игра доступна на: https://github.com/pi17b-ppse/Bondarenko-Vadim/</para>
+        <section>
+            <title>Особенности проекта</title>
+            <para>Управление кнопками, интуитивно - понятное всем пользователям;</para>
+            <para>Поддержка горячих клавиш для комфортной игры с компьютера;</para>
+            <para>Выбор уровня сложности игры;</para>
+            <para>Отображение игрового счета для соревнования с друзьями;</para>
+            <para>Возможность поставить игру на паузу;</para>
+            <para>Возможность быстрого сброса;</para>
+        </section>
+    </chapter>
+    <chapter>
+        <title>Детали реализации</title>
+        <para>Особенности реализации отдельного функционала представлены ниже:</para>
+        <section>
+            <title>Сохранение состояния игры</title>
+            <para>При уходе со страницы происходит сохранение состояния игры и текущих настроек для возобновления при следующем посещении.</para>
+            <example>
+                <programlisting><![CDATA[
+                if (localStorage.getItem('tetris')) {
+                    let tetris = JSON.parse(localStorage.getItem('tetris'));
+                    settings = tetris.settings;
+                    game.matrix = tetris.game.matrix;
+                    game.score = tetris.game.score;
+                    game.speed = tetris.game.speed;
+                    game.nextFigure = tetris.game.nextFigure;
+                    game.figure = tetris.game.figure;
+                    game.figurePosition = tetris.game.figurePosition;
+                    game.pause = tetris.game.pause;
+                    game.end = tetris.game.end;
+                } else {
+                    game.create();
+                }
+                ]]></programlisting>
+            </example>
+        </section>
+        <section>
+            <title>Быстрый сброс фигуры</title>
+            <para>При нажатии клавиши Вниз или S происходит сброс фигуры на позицию, указанную тенью.</para>
+            <example>
+                <programlisting><![CDATA[
+                dropFigure: function() {
+                    while (this.canShift(this.figure, this.figurePosition)) {
+                        this.moveFigure();
+                    }
+                }
+                ]]></programlisting>
+            </example>
+        </section>
+        <section>
+            <title>Добавление новой финуры</title>
+            <para>При добавлении новой фигуры текущая заменяется на следующую, а следующая генерируется до тех пор, пока не будет отличной от текущей.</para>
+            <example>
+                <programlisting><![CDATA[
+                _addFigure: function() {
+                    /* если следующая фигура определена, то выбираем текущей её,
+                    иначе генерируем новую */
+                    if (this.nextFigure != undefined) {
+                        this.figure = this.nextFigure;
+                    } else {
+                        this.figure = figures[this._random(0, 6)];
+                    }
+                    /* определение смещения новой фигуры для центрирования 
+                    и установка позиции на поле */
+                    let left = parseInt((settings.fieldSX - this.figure.length) / 2);
+                    this.figurePosition = [left, 0];
+                    /* генерация следующей фигуры, отличной от текущей */
+                    do {
+                        this.nextFigure = figures[this._random(0, 6)];
+                    } while (this.nextFigure == this.figure);
+                }
+                ]]></programlisting>
+            </example>
+        </section>
+    </chapter>
+</article>

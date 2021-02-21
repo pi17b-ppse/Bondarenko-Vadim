@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_main_8cpp" xml:lang="en-US">
+<title>main.cpp File Reference</title>
+<indexterm><primary>main.cpp</primary></indexterm>
+<programlisting>#include &quot;game.h&quot;
+</programlisting><simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>int WINAPI <link linkend="_main_8cpp_1a2b5d9752793002a947e9a9a624f11762">WinMain</link> (HINSTANCE hinst, HINSTANCE, LPSTR, int)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_main_8cpp_1a74aea08afaa7f26d272e9352ddafda3d">HWND</link></para>
+</listitem>
+            <listitem><para>static <link linkend="_main_8cpp_1a89b917a7bdb582e19cbde98e817fa0b3">WORD</link></para>
+</listitem>
+            <listitem><para>static <link linkend="_main_8cpp_1afff0ab3629a68bc1bb3b2a2f4296173f">UINT</link></para>
+</listitem>
+            <listitem><para>static <link linkend="_main_8cpp_1a296475d8e990aad6b442b8b669315f5e">HDC</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_main_8cpp_1a2b5d9752793002a947e9a9a624f11762"/>    <section>
+    <title>WinMain()</title>
+<indexterm><primary>WinMain</primary><secondary>main.cpp</secondary></indexterm>
+<indexterm><primary>main.cpp</primary><secondary>WinMain</secondary></indexterm>
+<para><computeroutput>int WINAPI WinMain (HINSTANCE hinst, HINSTANCE , LPSTR , int )</computeroutput></para></section>
+</section>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="_main_8cpp_1a296475d8e990aad6b442b8b669315f5e"/>    <section>
+    <title>HDC</title>
+<indexterm><primary>HDC</primary><secondary>main.cpp</secondary></indexterm>
+<indexterm><primary>main.cpp</primary><secondary>HDC</secondary></indexterm>
+<para><computeroutput>HDC</computeroutput></para>    </section><anchor xml:id="_main_8cpp_1a74aea08afaa7f26d272e9352ddafda3d"/>    <section>
+    <title>HWND</title>
+<indexterm><primary>HWND</primary><secondary>main.cpp</secondary></indexterm>
+<indexterm><primary>main.cpp</primary><secondary>HWND</secondary></indexterm>
+<para><computeroutput>HWND</computeroutput></para>    </section><anchor xml:id="_main_8cpp_1afff0ab3629a68bc1bb3b2a2f4296173f"/>    <section>
+    <title>UINT</title>
+<indexterm><primary>UINT</primary><secondary>main.cpp</secondary></indexterm>
+<indexterm><primary>main.cpp</primary><secondary>UINT</secondary></indexterm>
+<para><computeroutput>UINT</computeroutput></para>    </section><anchor xml:id="_main_8cpp_1a89b917a7bdb582e19cbde98e817fa0b3"/>    <section>
+    <title>WORD</title>
+<indexterm><primary>WORD</primary><secondary>main.cpp</secondary></indexterm>
+<indexterm><primary>main.cpp</primary><secondary>WORD</secondary></indexterm>
+<para><computeroutput>WORD</computeroutput></para></section>
+</section>
+</section>

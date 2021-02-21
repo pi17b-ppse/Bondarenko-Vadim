@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.1" xml:lang="en-US">
+  <compound refid="bitmap_8cpp" kind="file"><name>bitmap.cpp</name>
+  </compound>
+  <compound refid="game_8cpp" kind="file"><name>game.cpp</name>
+    <member refid="game_8cpp_1a7e5dac29ae1db0c9febfa7f119e8a38e" kind="define"><name>isKeyState</name></member>
+    <member refid="game_8cpp_1a0c1edce48bfa4c7a8296b811c5b5820c" kind="define"><name>isKeyLeftRight</name></member>
+    <member refid="game_8cpp_1aa17a3208b22096ac52652c7e96880f1f" kind="variable"><name>g_audio</name></member>
+    <member refid="game_8cpp_1a19b84425f38732e3eab4b8c3af26d53f" kind="variable"><name>g_repeat</name></member>
+    <member refid="game_8cpp_1af5319537ec3014d00698716f115369ff" kind="variable"><name>g_velocity</name></member>
+    <member refid="game_8cpp_1ac5f576fb59c9cf7de13af70c779b4335" kind="function"><name>options_proc</name></member>
+  </compound>
+  <compound refid="main_8cpp" kind="file"><name>main.cpp</name>
+    <member refid="main_8cpp_1ae2e729e05909ed49bb65405fe7959e66" kind="variable"><name>g_app</name></member>
+    <member refid="main_8cpp_1aabe336fdf9c375f7ae71935d0bc3d13f" kind="variable"><name>g_inst</name></member>
+    <member refid="main_8cpp_1a74aea08afaa7f26d272e9352ddafda3d" kind="variable"><name>HWND</name></member>
+    <member refid="main_8cpp_1a89b917a7bdb582e19cbde98e817fa0b3" kind="variable"><name>WORD</name></member>
+    <member refid="main_8cpp_1a1b9b385f873ff5ea219b2daf67c11325" kind="variable"><name>g_mdown</name></member>
+    <member refid="main_8cpp_1a9d6766ee601fbfc702495b6439137427" kind="variable"><name>g_mmove</name></member>
+    <member refid="main_8cpp_1afff0ab3629a68bc1bb3b2a2f4296173f" kind="variable"><name>UINT</name></member>
+    <member refid="main_8cpp_1a296475d8e990aad6b442b8b669315f5e" kind="variable"><name>HDC</name></member>
+    <member refid="main_8cpp_1a0a4874efb58b4a03313b95e46e25a4ec" kind="function"><name>put_form</name></member>
+    <member refid="main_8cpp_1acc48597c0a4e1deca7607c6e0117c115" kind="function"><name>void</name></member>
+    <member refid="main_8cpp_1a2b5d9752793002a947e9a9a624f11762" kind="function"><name>WinMain</name></member>
+    <member refid="main_8cpp_1a5ff81f473a896f403a6607581e29899b" kind="function"><name>wnd_proc</name></member>
+  </compound>
+  <compound refid="util_8cpp" kind="file"><name>util.cpp</name>
+    <member refid="util_8cpp_1ac5b93bb4f2449c6ed57e7715f26c491a" kind="function"><name>_next_scan</name></member>
+    <member refid="util_8cpp_1a7af5ccd4a679701a1ab60b6e3c05c419" kind="function"><name>figures_load</name></member>
+    <member refid="util_8cpp_1a8647f99c56b7396f2c858a366936c5bc" kind="function"><name>figure_reverse_horz</name></member>
+    <member refid="util_8cpp_1aa01b520028a67fd9b09d9ba7b1a3308d" kind="function"><name>figure_reverse_vert</name></member>
+    <member refid="util_8cpp_1a2845e09fef63a9ff3609366417723ffd" kind="function"><name>figure_transponse</name></member>
+    <member refid="util_8cpp_1a3b58754044721a7b3e5db1019120127e" kind="function"><name>figure_transponse</name></member>
+    <member refid="util_8cpp_1a6f0b48cd728baaf5dbf7a80535a96225" kind="function"><name>figure_set</name></member>
+    <member refid="util_8cpp_1a8bb3704a2eaa84bc97dc1f497eb15217" kind="function"><name>figure_rotate</name></member>
+    <member refid="util_8cpp_1a4a2547e434658a0407f6de208fae9cf4" kind="function"><name>is_move_horz</name></member>
+    <member refid="util_8cpp_1ae2af2e4dfced0dbcaf04978c90b2fc1c" kind="function"><name>is_move_down</name></member>
+    <member refid="util_8cpp_1ae34222375b8a6a2a7d1a129489e2c5ac" kind="function"><name>figure_put_field</name></member>
+    <member refid="util_8cpp_1aa80b8791a2796bdd144e35ed180a6678" kind="function"><name>field_find_line</name></member>
+    <member refid="util_8cpp_1a107f39dc6ef15cff3e411955f9cb1088" kind="function"><name>field_remove</name></member>
+    <member refid="util_8cpp_1a7f301b7d82e7e878a6d3b4fdc89e409b" kind="function"><name>figure_size</name></member>
+    <member refid="util_8cpp_1a205ed048fdf5259c2e8e0cb60ee8f719" kind="function"><name>operator new</name></member>
+    <member refid="util_8cpp_1a86107594327f3a001230df9802cd4422" kind="function"><name>operator delete</name></member>
+  </compound>
+</doxygenindex>

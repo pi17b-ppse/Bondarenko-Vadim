@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_bitmap_8cpp" xml:lang="en-US">
+<title>bitmap.cpp File Reference</title>
+<indexterm><primary>bitmap.cpp</primary></indexterm>
+<programlisting>#include &quot;game.h&quot;
+</programlisting></section>

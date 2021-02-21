@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_game_8cpp" xml:lang="en-US">
+<title>game.cpp File Reference</title>
+<indexterm><primary>game.cpp</primary></indexterm>
+<programlisting>#include &quot;game.h&quot;
+</programlisting><simplesect>
+    <title>Macros    </title>
+        <itemizedlist>
+            <listitem><para>#define <link linkend="_game_8cpp_1a7e5dac29ae1db0c9febfa7f119e8a38e">isKeyState</link>(vk)   (GetAsyncKeyState((vk)) &amp; 0x8000)</para>
+</listitem>
+            <listitem><para>#define <link linkend="_game_8cpp_1a0c1edce48bfa4c7a8296b811c5b5820c">isKeyLeftRight</link>()   (<link linkend="_game_8cpp_1a7e5dac29ae1db0c9febfa7f119e8a38e">isKeyState</link>(VK_LEFT) || <link linkend="_game_8cpp_1a7e5dac29ae1db0c9febfa7f119e8a38e">isKeyState</link>(&apos;A&apos;) || <link linkend="_game_8cpp_1a7e5dac29ae1db0c9febfa7f119e8a38e">isKeyState</link>(VK_RIGHT) || <link linkend="_game_8cpp_1a7e5dac29ae1db0c9febfa7f119e8a38e">isKeyState</link>(&apos;D&apos;))</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Macro Definition Documentation</title>
+<anchor xml:id="_game_8cpp_1a0c1edce48bfa4c7a8296b811c5b5820c"/>    <section>
+    <title>isKeyLeftRight</title>
+<indexterm><primary>isKeyLeftRight</primary><secondary>game.cpp</secondary></indexterm>
+<indexterm><primary>game.cpp</primary><secondary>isKeyLeftRight</secondary></indexterm>
+<para><computeroutput>#define isKeyLeftRight( )   (<link linkend="_game_8cpp_1a7e5dac29ae1db0c9febfa7f119e8a38e">isKeyState</link>(VK_LEFT) || <link linkend="_game_8cpp_1a7e5dac29ae1db0c9febfa7f119e8a38e">isKeyState</link>(&apos;A&apos;) || <link linkend="_game_8cpp_1a7e5dac29ae1db0c9febfa7f119e8a38e">isKeyState</link>(VK_RIGHT) || <link linkend="_game_8cpp_1a7e5dac29ae1db0c9febfa7f119e8a38e">isKeyState</link>(&apos;D&apos;))</computeroutput></para>    </section><anchor xml:id="_game_8cpp_1a7e5dac29ae1db0c9febfa7f119e8a38e"/>    <section>
+    <title>isKeyState</title>
+<indexterm><primary>isKeyState</primary><secondary>game.cpp</secondary></indexterm>
+<indexterm><primary>game.cpp</primary><secondary>isKeyState</secondary></indexterm>
+<para><computeroutput>#define isKeyState( vk)   (GetAsyncKeyState((vk)) &amp; 0x8000)</computeroutput></para></section>
+</section>
+</section>

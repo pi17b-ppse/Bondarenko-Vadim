@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_util_8cpp" xml:lang="en-US">
+<title>util.cpp File Reference</title>
+<indexterm><primary>util.cpp</primary></indexterm>
+<programlisting>#include &quot;game.h&quot;
+</programlisting><simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>bool <link linkend="_util_8cpp_1a7af5ccd4a679701a1ab60b6e3c05c419">figures_load</link> (pod_array&lt; figure_t &gt; &amp;fgs, HINSTANCE hinst, LPCWSTR filename, LPCWSTR type)</para>
+</listitem>
+            <listitem><para>void <link linkend="_util_8cpp_1a8647f99c56b7396f2c858a366936c5bc">figure_reverse_horz</link> (figure_t &amp;src)</para>
+</listitem>
+            <listitem><para>void <link linkend="_util_8cpp_1aa01b520028a67fd9b09d9ba7b1a3308d">figure_reverse_vert</link> (figure_t &amp;src)</para>
+</listitem>
+            <listitem><para>void <link linkend="_util_8cpp_1a2845e09fef63a9ff3609366417723ffd">figure_transponse</link> (figure_t &amp;dst, const figure_t &amp;src)</para>
+</listitem>
+            <listitem><para>void <link linkend="_util_8cpp_1a3b58754044721a7b3e5db1019120127e">figure_transponse</link> (figure_t &amp;src)</para>
+</listitem>
+            <listitem><para>void <link linkend="_util_8cpp_1a6f0b48cd728baaf5dbf7a80535a96225">figure_set</link> (figure_t &amp;src, int val)</para>
+</listitem>
+            <listitem><para>bool <link linkend="_util_8cpp_1a8bb3704a2eaa84bc97dc1f497eb15217">figure_rotate</link> (int x, int y, figure_t &amp;figure, int field[][FIELD_COLS])</para>
+</listitem>
+            <listitem><para>bool <link linkend="_util_8cpp_1a4a2547e434658a0407f6de208fae9cf4">is_move_horz</link> (int x, int y, const figure_t &amp;figure, int field[][FIELD_COLS], int velocity, bool left)</para>
+</listitem>
+            <listitem><para>BOOL <link linkend="_util_8cpp_1ae2af2e4dfced0dbcaf04978c90b2fc1c">is_move_down</link> (int x, int y, const figure_t &amp;figure, int step, int field[][FIELD_COLS])</para>
+</listitem>
+            <listitem><para>void <link linkend="_util_8cpp_1ae34222375b8a6a2a7d1a129489e2c5ac">figure_put_field</link> (int x, int y, const figure_t &amp;figure, int field[][FIELD_COLS])</para>
+</listitem>
+            <listitem><para>bool <link linkend="_util_8cpp_1a107f39dc6ef15cff3e411955f9cb1088">field_remove</link> (int field[][FIELD_COLS], bool line_erase, pod_block&lt; boom_row, FIELD_ROWS &gt; *booms)</para>
+</listitem>
+            <listitem><para>void <link linkend="_util_8cpp_1a7f301b7d82e7e878a6d3b4fdc89e409b">figure_size</link> (const figure_t &amp;figure, LPRECT prc, int size)</para>
+</listitem>
+            <listitem><para>void * <link linkend="_util_8cpp_1a205ed048fdf5259c2e8e0cb60ee8f719">operator new</link> (size_t size)</para>
+</listitem>
+            <listitem><para>void <link linkend="_util_8cpp_1a86107594327f3a001230df9802cd4422">operator delete</link> (void *p)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_util_8cpp_1a107f39dc6ef15cff3e411955f9cb1088"/>    <section>
+    <title>field_remove()</title>
+<indexterm><primary>field_remove</primary><secondary>util.cpp</secondary></indexterm>
+<indexterm><primary>util.cpp</primary><secondary>field_remove</secondary></indexterm>
+<para><computeroutput>bool field_remove (int field[][FIELD_COLS], bool line_erase, pod_block&lt; boom_row, FIELD_ROWS &gt; * booms)</computeroutput></para>    </section><anchor xml:id="_util_8cpp_1ae34222375b8a6a2a7d1a129489e2c5ac"/>    <section>
+    <title>figure_put_field()</title>
+<indexterm><primary>figure_put_field</primary><secondary>util.cpp</secondary></indexterm>
+<indexterm><primary>util.cpp</primary><secondary>figure_put_field</secondary></indexterm>
+<para><computeroutput>void figure_put_field (int x, int y, const figure_t &amp; figure, int field[][FIELD_COLS])</computeroutput></para>    </section><anchor xml:id="_util_8cpp_1a8647f99c56b7396f2c858a366936c5bc"/>    <section>
+    <title>figure_reverse_horz()</title>
+<indexterm><primary>figure_reverse_horz</primary><secondary>util.cpp</secondary></indexterm>
+<indexterm><primary>util.cpp</primary><secondary>figure_reverse_horz</secondary></indexterm>
+<para><computeroutput>void figure_reverse_horz (figure_t &amp; src)</computeroutput></para>    </section><anchor xml:id="_util_8cpp_1aa01b520028a67fd9b09d9ba7b1a3308d"/>    <section>
+    <title>figure_reverse_vert()</title>
+<indexterm><primary>figure_reverse_vert</primary><secondary>util.cpp</secondary></indexterm>
+<indexterm><primary>util.cpp</primary><secondary>figure_reverse_vert</secondary></indexterm>
+<para><computeroutput>void figure_reverse_vert (figure_t &amp; src)</computeroutput></para>    </section><anchor xml:id="_util_8cpp_1a8bb3704a2eaa84bc97dc1f497eb15217"/>    <section>
+    <title>figure_rotate()</title>
+<indexterm><primary>figure_rotate</primary><secondary>util.cpp</secondary></indexterm>
+<indexterm><primary>util.cpp</primary><secondary>figure_rotate</secondary></indexterm>
+<para><computeroutput>bool figure_rotate (int x, int y, figure_t &amp; figure, int field[][FIELD_COLS])</computeroutput></para>    </section><anchor xml:id="_util_8cpp_1a6f0b48cd728baaf5dbf7a80535a96225"/>    <section>
+    <title>figure_set()</title>
+<indexterm><primary>figure_set</primary><secondary>util.cpp</secondary></indexterm>
+<indexterm><primary>util.cpp</primary><secondary>figure_set</secondary></indexterm>
+<para><computeroutput>void figure_set (figure_t &amp; src, int val)</computeroutput></para>    </section><anchor xml:id="_util_8cpp_1a7f301b7d82e7e878a6d3b4fdc89e409b"/>    <section>
+    <title>figure_size()</title>
+<indexterm><primary>figure_size</primary><secondary>util.cpp</secondary></indexterm>
+<indexterm><primary>util.cpp</primary><secondary>figure_size</secondary></indexterm>
+<para><computeroutput>void figure_size (const figure_t &amp; figure, LPRECT prc, int size)</computeroutput></para>    </section><anchor xml:id="_util_8cpp_1a2845e09fef63a9ff3609366417723ffd"/>    <section>
+    <title>figure_transponse()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>figure_transponse</primary><secondary>util.cpp</secondary></indexterm>
+<indexterm><primary>util.cpp</primary><secondary>figure_transponse</secondary></indexterm>
+<para><computeroutput>void figure_transponse (figure_t &amp; dst, const figure_t &amp; src)</computeroutput></para>    </section><anchor xml:id="_util_8cpp_1a3b58754044721a7b3e5db1019120127e"/>    <section>
+    <title>figure_transponse()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>figure_transponse</primary><secondary>util.cpp</secondary></indexterm>
+<indexterm><primary>util.cpp</primary><secondary>figure_transponse</secondary></indexterm>
+<para><computeroutput>void figure_transponse (figure_t &amp; src)</computeroutput></para>    </section><anchor xml:id="_util_8cpp_1a7af5ccd4a679701a1ab60b6e3c05c419"/>    <section>
+    <title>figures_load()</title>
+<indexterm><primary>figures_load</primary><secondary>util.cpp</secondary></indexterm>
+<indexterm><primary>util.cpp</primary><secondary>figures_load</secondary></indexterm>
+<para><computeroutput>bool figures_load (pod_array&lt; figure_t &gt; &amp; fgs, HINSTANCE hinst, LPCWSTR filename, LPCWSTR type)</computeroutput></para>    </section><anchor xml:id="_util_8cpp_1ae2af2e4dfced0dbcaf04978c90b2fc1c"/>    <section>
+    <title>is_move_down()</title>
+<indexterm><primary>is_move_down</primary><secondary>util.cpp</secondary></indexterm>
+<indexterm><primary>util.cpp</primary><secondary>is_move_down</secondary></indexterm>
+<para><computeroutput>BOOL is_move_down (int x, int y, const figure_t &amp; figure, int step, int field[][FIELD_COLS])</computeroutput></para>    </section><anchor xml:id="_util_8cpp_1a4a2547e434658a0407f6de208fae9cf4"/>    <section>
+    <title>is_move_horz()</title>
+<indexterm><primary>is_move_horz</primary><secondary>util.cpp</secondary></indexterm>
+<indexterm><primary>util.cpp</primary><secondary>is_move_horz</secondary></indexterm>
+<para><computeroutput>bool is_move_horz (int x, int y, const figure_t &amp; figure, int field[][FIELD_COLS], int velocity, bool left)</computeroutput></para>    </section><anchor xml:id="_util_8cpp_1a86107594327f3a001230df9802cd4422"/>    <section>
+    <title>operator delete()</title>
+<indexterm><primary>operator delete</primary><secondary>util.cpp</secondary></indexterm>
+<indexterm><primary>util.cpp</primary><secondary>operator delete</secondary></indexterm>
+<para><computeroutput>void operator delete (void * p)</computeroutput></para>    </section><anchor xml:id="_util_8cpp_1a205ed048fdf5259c2e8e0cb60ee8f719"/>    <section>
+    <title>operator new()</title>
+<indexterm><primary>operator new</primary><secondary>util.cpp</secondary></indexterm>
+<indexterm><primary>util.cpp</primary><secondary>operator new</secondary></indexterm>
+<para><computeroutput>void* operator new (size_t size)</computeroutput></para></section>
+</section>
+</section>

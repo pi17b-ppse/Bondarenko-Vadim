@@ -1,0 +1,1374 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="util_8cpp" kind="file" language="C++">
+    <compoundname>util.cpp</compoundname>
+    <includes local="yes">game.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>game.h</label>
+      </node>
+      <node id="1">
+        <label>util.cpp</label>
+        <link refid="util_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="util_8cpp_1ac5b93bb4f2449c6ed57e7715f26c491a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>LPCSTR</type>
+        <definition>static LPCSTR _next_scan</definition>
+        <argsstring>(LPCSTR s, int &amp;v)</argsstring>
+        <name>_next_scan</name>
+        <param>
+          <type>LPCSTR</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="util.cpp" line="338" column="15" bodyfile="util.cpp" bodystart="338" bodyend="343" declfile="util.cpp" declline="2" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="util_8cpp_1a7af5ccd4a679701a1ab60b6e3c05c419" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool figures_load</definition>
+        <argsstring>(pod_array&lt; figure_t &gt; &amp;fgs, HINSTANCE hinst, LPCWSTR filename, LPCWSTR type)</argsstring>
+        <name>figures_load</name>
+        <param>
+          <type>pod_array&lt; figure_t &gt; &amp;</type>
+          <declname>fgs</declname>
+        </param>
+        <param>
+          <type>HINSTANCE</type>
+          <declname>hinst</declname>
+        </param>
+        <param>
+          <type>LPCWSTR</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>LPCWSTR</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="util.cpp" line="6" column="6" bodyfile="util.cpp" bodystart="6" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="util_8cpp_1a8647f99c56b7396f2c858a366936c5bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void figure_reverse_horz</definition>
+        <argsstring>(figure_t &amp;src)</argsstring>
+        <name>figure_reverse_horz</name>
+        <param>
+          <type>figure_t &amp;</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="util.cpp" line="90" column="6" bodyfile="util.cpp" bodystart="90" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="util_8cpp_1aa01b520028a67fd9b09d9ba7b1a3308d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void figure_reverse_vert</definition>
+        <argsstring>(figure_t &amp;src)</argsstring>
+        <name>figure_reverse_vert</name>
+        <param>
+          <type>figure_t &amp;</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="util.cpp" line="100" column="6" bodyfile="util.cpp" bodystart="100" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="util_8cpp_1a2845e09fef63a9ff3609366417723ffd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void figure_transponse</definition>
+        <argsstring>(figure_t &amp;dst, const figure_t &amp;src)</argsstring>
+        <name>figure_transponse</name>
+        <param>
+          <type>figure_t &amp;</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>const figure_t &amp;</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="util.cpp" line="110" column="6" bodyfile="util.cpp" bodystart="110" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="util_8cpp_1a3b58754044721a7b3e5db1019120127e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void figure_transponse</definition>
+        <argsstring>(figure_t &amp;src)</argsstring>
+        <name>figure_transponse</name>
+        <param>
+          <type>figure_t &amp;</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="util.cpp" line="120" column="6" bodyfile="util.cpp" bodystart="120" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="util_8cpp_1a6f0b48cd728baaf5dbf7a80535a96225" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void figure_set</definition>
+        <argsstring>(figure_t &amp;src, int val)</argsstring>
+        <name>figure_set</name>
+        <param>
+          <type>figure_t &amp;</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="util.cpp" line="129" column="6" bodyfile="util.cpp" bodystart="129" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="util_8cpp_1a8bb3704a2eaa84bc97dc1f497eb15217" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool figure_rotate</definition>
+        <argsstring>(int x, int y, figure_t &amp;figure, int field[][FIELD_COLS])</argsstring>
+        <name>figure_rotate</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>figure_t &amp;</type>
+          <declname>figure</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+          <array>[][FIELD_COLS]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="util.cpp" line="140" column="6" bodyfile="util.cpp" bodystart="140" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="util_8cpp_1a4a2547e434658a0407f6de208fae9cf4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool is_move_horz</definition>
+        <argsstring>(int x, int y, const figure_t &amp;figure, int field[][FIELD_COLS], int velocity, bool left)</argsstring>
+        <name>is_move_horz</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>const figure_t &amp;</type>
+          <declname>figure</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+          <array>[][FIELD_COLS]</array>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>velocity</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>left</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="util.cpp" line="174" column="6" bodyfile="util.cpp" bodystart="174" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="util_8cpp_1ae2af2e4dfced0dbcaf04978c90b2fc1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>BOOL</type>
+        <definition>BOOL is_move_down</definition>
+        <argsstring>(int x, int y, const figure_t &amp;figure, int step, int field[][FIELD_COLS])</argsstring>
+        <name>is_move_down</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>const figure_t &amp;</type>
+          <declname>figure</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>step</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+          <array>[][FIELD_COLS]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="util.cpp" line="202" column="6" bodyfile="util.cpp" bodystart="202" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="function" id="util_8cpp_1ae34222375b8a6a2a7d1a129489e2c5ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void figure_put_field</definition>
+        <argsstring>(int x, int y, const figure_t &amp;figure, int field[][FIELD_COLS])</argsstring>
+        <name>figure_put_field</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>const figure_t &amp;</type>
+          <declname>figure</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+          <array>[][FIELD_COLS]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="util.cpp" line="223" column="6" bodyfile="util.cpp" bodystart="223" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="function" id="util_8cpp_1aa80b8791a2796bdd144e35ed180a6678" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int field_find_line</definition>
+        <argsstring>(int field[][FIELD_COLS], int &amp;last, int row=0)</argsstring>
+        <name>field_find_line</name>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+          <array>[][FIELD_COLS]</array>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>last</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="util.cpp" line="240" column="12" bodyfile="util.cpp" bodystart="240" bodyend="269"/>
+      </memberdef>
+      <memberdef kind="function" id="util_8cpp_1a107f39dc6ef15cff3e411955f9cb1088" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool field_remove</definition>
+        <argsstring>(int field[][FIELD_COLS], bool line_erase, pod_block&lt; boom_row, FIELD_ROWS &gt; *booms)</argsstring>
+        <name>field_remove</name>
+        <param>
+          <type>int</type>
+          <declname>field</declname>
+          <array>[][FIELD_COLS]</array>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>line_erase</declname>
+        </param>
+        <param>
+          <type>pod_block&lt; boom_row, FIELD_ROWS &gt; *</type>
+          <declname>booms</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="util.cpp" line="273" column="6" bodyfile="util.cpp" bodystart="273" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="function" id="util_8cpp_1a7f301b7d82e7e878a6d3b4fdc89e409b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void figure_size</definition>
+        <argsstring>(const figure_t &amp;figure, LPRECT prc, int size)</argsstring>
+        <name>figure_size</name>
+        <param>
+          <type>const figure_t &amp;</type>
+          <declname>figure</declname>
+        </param>
+        <param>
+          <type>LPRECT</type>
+          <declname>prc</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="util.cpp" line="310" column="6" bodyfile="util.cpp" bodystart="310" bodyend="332"/>
+      </memberdef>
+      <memberdef kind="function" id="util_8cpp_1a205ed048fdf5259c2e8e0cb60ee8f719" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void* operator new</definition>
+        <argsstring>(size_t size)</argsstring>
+        <name>operator new</name>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="util.cpp" line="346" column="6" bodyfile="util.cpp" bodystart="346" bodyend="348"/>
+      </memberdef>
+      <memberdef kind="function" id="util_8cpp_1a86107594327f3a001230df9802cd4422" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void operator delete</definition>
+        <argsstring>(void *p)</argsstring>
+        <name>operator delete</name>
+        <param>
+          <type>void *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="util.cpp" line="351" column="6" bodyfile="util.cpp" bodystart="351" bodyend="354"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;game.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>LPCSTR<sp/>_next_scan(LPCSTR<sp/>s,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>v);</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//загрузка<sp/>фигур из<sp/>файла или ресурсов</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="util_8cpp_1a7af5ccd4a679701a1ab60b6e3c05c419" kindref="member">figures_load</ref>(pod_array&lt;figure_t&gt;&amp;<sp/>fgs,<sp/>HINSTANCE<sp/>hinst,<sp/>LPCWSTR<sp/>filename,<sp/>LPCWSTR<sp/>type){</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>LPSTR<sp/><sp/><sp/>buf;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>HGLOBAL<sp/>data<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(hinst<sp/>==<sp/>NULL){</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HANDLE<sp/>fp<sp/>=<sp/>CreateFileW(filename,<sp/>GENERIC_READ,<sp/>FILE_SHARE_READ,<sp/>NULL,<sp/></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>OPEN_EXISTING,<sp/>FILE_ATTRIBUTE_NORMAL,<sp/>NULL);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(fp<sp/>==<sp/>INVALID_HANDLE_VALUE)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DWORD<sp/>len<sp/>=<sp/>GetFileSize(fp,<sp/>NULL);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(len<sp/>==<sp/>INVALID_FILE_SIZE){</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CloseHandle(fp);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>buf<sp/>=<sp/></highlight><highlight class="keyword">reinterpret_cast&lt;</highlight><highlight class="normal">LPSTR</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(<sp/>HeapAlloc(GetProcessHeap(),<sp/>0,<sp/>(len<sp/>+<sp/>1)<sp/>*<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(CHAR))<sp/>);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(buf<sp/>==<sp/>NULL){</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CloseHandle(fp);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DWORD<sp/><sp/><sp/>n<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>BOOL<sp/><sp/>ret<sp/>=<sp/>ReadFile(fp,<sp/>buf,<sp/>len,<sp/>&amp;n,<sp/>NULL);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CloseHandle(fp);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!ret<sp/>||<sp/>(n<sp/>!=<sp/>len)){</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">[]<sp/>buf;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>buf[n]<sp/>=<sp/></highlight><highlight class="charliteral">&apos;\0&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(type<sp/>==<sp/>NULL)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HRSRC<sp/>src<sp/>=<sp/>FindResourceW((HMODULE)hinst,<sp/>filename,<sp/>type);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(src<sp/>==<sp/>NULL)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>data<sp/>=<sp/>LoadResource((HMODULE)hinst,<sp/>src);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(data<sp/>==<sp/>NULL)</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>buf<sp/>=<sp/></highlight><highlight class="keyword">reinterpret_cast&lt;</highlight><highlight class="normal">LPSTR</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(<sp/>LockResource(data)<sp/>);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(buf<sp/>==<sp/>NULL){</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FreeResource(data);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m,<sp/>a,<sp/>b;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><sp/><sp/>i;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>figure_t<sp/>fg;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>LPCSTR<sp/><sp/><sp/>p<sp/>=<sp/>_next_scan(buf,<sp/>m);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(p<sp/>==<sp/>NULL)</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>_err;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>fgs.setSize(</highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="keywordtype">size_t</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(m));</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>fgs.getSize();<sp/>++i){</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((p<sp/>=<sp/>_next_scan(p,<sp/>m))<sp/>==<sp/>NULL)</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>_err;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fg.size<sp/>=<sp/>m;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(a<sp/>=<sp/>0;<sp/>a<sp/>&lt;<sp/>m;<sp/>++a){</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(b<sp/>=<sp/>0;<sp/>b<sp/>&lt;<sp/>m;<sp/>++b){</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((p<sp/>=<sp/>_next_scan(p,<sp/>fg.figure[a][b]))<sp/>==<sp/>NULL)</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>_err;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>memcpy(&amp;fgs[i],<sp/>&amp;fg,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(fg));</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal">_err:</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(data<sp/>!=<sp/>NULL){</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UnlockResource(data);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FreeResource(data);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HeapFree(GetProcessHeap(),<sp/>0,<sp/>buf);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(fgs.getSize()<sp/>&gt;<sp/>0);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="comment">//реверсирование<sp/>строк void<sp/>figure_reverse_horz(figure_t&amp;<sp/>src){
+<sp/><sp/>int<sp/>i<sp/>=<sp/>0,<sp/>j<sp/>=<sp/>src.size<sp/>-<sp/>1;
+<sp/><sp/><sp/>for(;<sp/>i<sp/>&lt;<sp/>j;<sp/>++i,<sp/>--j){
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>for(int<sp/>r<sp/>=<sp/>0;<sp/>r<sp/>&lt;<sp/>src.size;<sp/>++r)
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>swap_value(src[r][i],<sp/>src[r][j]);
+<sp/><sp/>}<sp/><sp/><sp/>
+}
+
+
+//реверсирование<sp/>столбцов
+void<sp/>figure_reverse_vert(figure_t&amp;<sp/>src){
+<sp/><sp/><sp/>int<sp/>i<sp/>=<sp/>0,<sp/>j<sp/>=<sp/>src.size<sp/>-<sp/>1;
+<sp/><sp/><sp/>for(;<sp/>i<sp/>&lt;<sp/>j;<sp/>++i,<sp/>--j){
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>for(int<sp/>c<sp/>=<sp/>0;<sp/>c<sp/>&lt;<sp/>src.size;<sp/>++c)
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>swap_value(src[i][c],<sp/>src[j][c]);
+<sp/><sp/>}
+}
+
+
+//транспонирование
+void<sp/>figure_transponse(figure_t&amp;<sp/>dst,<sp/>const<sp/>figure_t&amp;<sp/>src){
+<sp/><sp/><sp/>dst.size<sp/>=<sp/>src.size;
+<sp/><sp/><sp/>for(int<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>src.size;<sp/>++i){
+<sp/><sp/><sp/><sp/><sp/>for(int<sp/>j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>src.size;<sp/>++j)
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dst[j][i]<sp/>=<sp/>src[i][j];
+<sp/>}<sp/><sp/><sp/>
+}
+
+
+//транспонирование
+void<sp/>figure_transponse(figure_t&amp;<sp/>src){
+<sp/>for(int<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>src.size;<sp/>++i){
+<sp/><sp/><sp/><sp/><sp/>for(int<sp/>j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>src.size;<sp/>++j)
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>swap_value(src[j][i],<sp/>src[i][j]);
+<sp/><sp/>}
+}
+
+
+//изменение
+void<sp/>figure_set(figure_t&amp;<sp/>src,<sp/>int<sp/>val){
+<sp/><sp/>for(int<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>src.size;<sp/>++i){
+<sp/><sp/><sp/><sp/><sp/>for(int<sp/>j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>src.size;<sp/>++j){
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if(src[i][j]<sp/>!=<sp/>BLOCK_NONE)
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>src[i][j]<sp/>=<sp/>val;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/>}
+<sp/><sp/>}
+}
+
+
+//вращение
+bool<sp/>figure_rotate(int<sp/>x,<sp/>int<sp/>y,<sp/>figure_t&amp;<sp/>figure,<sp/>int<sp/>field[][FIELD_COLS]){
+<sp/><sp/>int<sp/>i,<sp/>j,<sp/>col,<sp/>row;
+<sp/><sp/><sp/><sp/>figure_t<sp/>temp;
+
+<sp/><sp/><sp/><sp/>//вращение
+<sp/>memset(&amp;temp,<sp/>0,<sp/>sizeof(temp));
+<sp/><sp/><sp/><sp/>figure_transponse(temp,<sp/>figure);
+<sp/><sp/><sp/>figure_reverse_vert(temp);
+
+<sp/><sp/><sp/><sp/>for(i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>temp.size;<sp/>++i){
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>for(j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>temp.size;<sp/>++j){
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if(temp[i][j]<sp/>==<sp/>BLOCK_NONE)
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>continue;
+
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>col<sp/>=<sp/>x<sp/>+<sp/>j;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>row<sp/>=<sp/>(y<sp/>+<sp/>i<sp/>*<sp/>CELL_SIZE)<sp/>/<sp/>CELL_SIZE;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if(row<sp/>&lt;<sp/>0)
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>continue;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>else<sp/>if((col<sp/>&lt;<sp/>0)<sp/>||<sp/>(col<sp/>&gt;=<sp/>FIELD_COLS)<sp/>||<sp/>(row<sp/>&gt;=<sp/>FIELD_ROWS))
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>false;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>else<sp/>if(field[row][col]<sp/>&gt;<sp/>BLOCK_NONE)
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>false;
+
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>row<sp/>=<sp/>((y<sp/>+<sp/>CELL_SIZE)<sp/>+<sp/>i<sp/>*<sp/>CELL_SIZE)<sp/>/<sp/>CELL_SIZE;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if((row<sp/>&gt;=<sp/>FIELD_ROWS)<sp/>||<sp/>(field[row][col]<sp/>&gt;<sp/>BLOCK_NONE))
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>false;
+<sp/><sp/><sp/><sp/><sp/><sp/>}
+<sp/><sp/>}
+<sp/><sp/>memcpy(&amp;figure,<sp/>&amp;temp,<sp/>sizeof(temp));
+<sp/><sp/>return<sp/>true;
+}
+
+
+//проверка<sp/>на<sp/>движение<sp/>влево или вправо
+bool<sp/>is_move_horz(int<sp/>x,<sp/>int<sp/>y,<sp/>const<sp/>figure_t&amp;<sp/>figure,<sp/>int<sp/>field[][FIELD_COLS],<sp/>int<sp/>velocity,<sp/>bool<sp/>left){
+<sp/>int<sp/>col,<sp/>row;
+<sp/><sp/>x<sp/>=<sp/>(left)<sp/>?<sp/>x<sp/>-<sp/>1<sp/>:<sp/>x<sp/>+<sp/>1;
+<sp/><sp/><sp/><sp/>for(int<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>figure.size;<sp/>++i){
+<sp/><sp/><sp/><sp/><sp/><sp/>for(int<sp/>j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>figure.size;<sp/>++j){
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if(figure.figure[i][j]<sp/>&gt;<sp/>BLOCK_NONE){
+
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>col<sp/>=<sp/>x<sp/>+<sp/>j;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>row<sp/>=<sp/>(y<sp/>+<sp/>velocity<sp/>+<sp/>i<sp/>*<sp/>CELL_SIZE)<sp/>/<sp/>CELL_SIZE;
+
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if((col<sp/>&lt;<sp/>0)<sp/>||<sp/>(col<sp/>&gt;=<sp/>FIELD_COLS)<sp/>||<sp/>(row<sp/>&gt;=<sp/>FIELD_ROWS))
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>false;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>else<sp/>if(row<sp/>&lt;<sp/>0)
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>continue;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>else<sp/>if(field[row][col]<sp/>&gt;<sp/>BLOCK_NONE)
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>false;
+
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>row<sp/>=<sp/>((y<sp/>+<sp/>CELL_SIZE<sp/>-<sp/>velocity)<sp/>+<sp/>i<sp/>*<sp/>CELL_SIZE)<sp/>/<sp/>CELL_SIZE;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if((row<sp/>&gt;=<sp/>FIELD_ROWS)<sp/>||<sp/>(field[row][col]<sp/>&gt;<sp/>BLOCK_NONE))
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>false;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}
+<sp/><sp/><sp/><sp/><sp/><sp/>}
+<sp/><sp/>}
+<sp/><sp/>return<sp/>true;
+}
+
+
+//проверка<sp/>на<sp/>движение<sp/>вниз
+BOOL<sp/>is_move_down(int<sp/>x,<sp/>int<sp/>y,<sp/>const<sp/>figure_t&amp;<sp/>figure,<sp/>int<sp/>step,<sp/>int<sp/>field[][FIELD_COLS]){
+<sp/><sp/>int<sp/>col,<sp/>row;
+<sp/><sp/>y<sp/>+=<sp/>CELL_SIZE<sp/>+<sp/>step;
+<sp/>for(int<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>figure.size;<sp/>++i){
+<sp/><sp/><sp/><sp/><sp/><sp/>for(int<sp/>j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>figure.size;<sp/>++j){
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if(figure[i][j]<sp/>==<sp/>BLOCK_NONE)
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>continue;
+
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>col<sp/>=<sp/>x<sp/>+<sp/>j;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>row<sp/>=<sp/>(y<sp/>+<sp/>i<sp/>*<sp/>CELL_SIZE)<sp/>/<sp/>CELL_SIZE;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if(row<sp/>&lt;<sp/>0)
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>continue;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>else<sp/>if((row<sp/>&gt;=<sp/>FIELD_ROWS)<sp/>||<sp/>(field[row][col]<sp/>&gt;<sp/>BLOCK_NONE))
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>FALSE;
+<sp/><sp/><sp/><sp/><sp/><sp/>}
+<sp/><sp/>}
+<sp/><sp/>return<sp/>TRUE;
+}
+
+
+//присвoить фигуру<sp/>полю
+void<sp/>figure_put_field(int<sp/>x,<sp/>int<sp/>y,<sp/>const<sp/>figure_t&amp;<sp/>figure,<sp/>int<sp/>field[][FIELD_COLS]){
+<sp/><sp/><sp/>int<sp/>row,<sp/>col;
+<sp/><sp/>y<sp/>+=<sp/>CELL_MID;
+<sp/>for(int<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>figure.size;<sp/>++i){
+<sp/><sp/><sp/><sp/><sp/><sp/>for(int<sp/>j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>figure.size;<sp/>++j){
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>col<sp/>=<sp/>x<sp/>+<sp/>j;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>row<sp/>=<sp/>(y<sp/>+<sp/>i<sp/>*<sp/>CELL_SIZE)<sp/>/<sp/>CELL_SIZE;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if((col<sp/>&gt;=<sp/>0<sp/>&amp;&amp;<sp/>col<sp/>&lt;<sp/>FIELD_COLS)<sp/>&amp;&amp;<sp/>(row<sp/>&gt;=<sp/>0<sp/>&amp;&amp;<sp/>row<sp/>&lt;<sp/>FIELD_ROWS)){
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if(field[row][col]<sp/>==<sp/>BLOCK_NONE)
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>field[row][col]<sp/>=<sp/>figure.figure[i][j];
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}
+<sp/><sp/><sp/><sp/><sp/><sp/>}
+<sp/><sp/>}
+}
+
+
+//поиск линии
+static<sp/>int<sp/>field_find_line(int<sp/>field[][FIELD_COLS],<sp/>int&amp;<sp/>last,<sp/>int<sp/>row<sp/>=<sp/>0){
+<sp/>int<sp/><sp/>j,<sp/>first<sp/>=<sp/>-1;
+<sp/><sp/><sp/><sp/>last<sp/>=<sp/>-1;
+<sp/>for(int<sp/>i<sp/>=<sp/>row;<sp/>i<sp/>&lt;<sp/>FIELD_ROWS;<sp/>++i){
+<sp/><sp/><sp/><sp/><sp/>j<sp/>=<sp/>0;
+<sp/><sp/><sp/><sp/><sp/>while((j<sp/>&lt;<sp/>FIELD_COLS)<sp/>&amp;&amp;<sp/>(field[i][j]<sp/>!=<sp/>BLOCK_NONE))
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>++j;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/>
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/>if(j<sp/>==<sp/>FIELD_COLS){
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>first<sp/>=<sp/>i;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>break;
+<sp/><sp/><sp/><sp/><sp/>}
+<sp/><sp/>}
+
+<sp/>if(first<sp/>==<sp/>-1)
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>-1;
+
+<sp/><sp/><sp/><sp/>last<sp/>=<sp/>first<sp/>+<sp/>1;
+<sp/><sp/>for(int<sp/>r<sp/>=<sp/>first<sp/>+<sp/>1;<sp/>r<sp/>&lt;<sp/>FIELD_ROWS;<sp/>++r){
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/>j<sp/>=<sp/>0;
+<sp/><sp/><sp/><sp/><sp/>while((j<sp/>&lt;<sp/>FIELD_COLS)<sp/>&amp;&amp;<sp/>(field[r][j]<sp/>!=<sp/>BLOCK_NONE))
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>++j;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/>
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/>if(j<sp/>==<sp/>FIELD_COLS)
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>last<sp/>=<sp/>r<sp/>+<sp/>1;
+<sp/><sp/><sp/><sp/><sp/><sp/>else
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>break;
+<sp/>}
+<sp/><sp/>return<sp/>first;
+}
+
+
+//пометка или удаление<sp/>линии для<sp/>взрыва
+bool<sp/>field_remove(int<sp/>field[][FIELD_COLS],<sp/>bool<sp/>line_erase,<sp/>pod_block&lt;boom_row,<sp/>FIELD_ROWS&gt;*<sp/>booms){
+<sp/><sp/>bool<sp/><sp/><sp/>ok<sp/>=<sp/>false;
+<sp/>int<sp/>first<sp/>=<sp/>0,<sp/>last,<sp/>i,<sp/>j,<sp/>n;
+
+<sp/>if(!line_erase<sp/>&amp;&amp;<sp/>(booms<sp/>!=<sp/>NULL))
+<sp/><sp/><sp/><sp/><sp/>booms-&gt;reset();
+
+<sp/><sp/><sp/>while((first<sp/>=<sp/>field_find_line(field,<sp/>last,<sp/>first))<sp/>!=<sp/>-1){
+
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/>if(line_erase){
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>n<sp/>=<sp/>last<sp/>-<sp/>first;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>for(i<sp/>=<sp/>last<sp/>-<sp/>1;<sp/>i<sp/>&gt;<sp/>n;<sp/>--i){
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>for(j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>FIELD_COLS;<sp/>++j)
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>field[i][j]<sp/>=<sp/>field[i<sp/>-<sp/>n][j];
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}
+
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>for(i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>n;<sp/>++i)
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>memset(field[i],<sp/>0,<sp/>FIELD_COLS<sp/>*<sp/>sizeof(int));
+<sp/><sp/><sp/><sp/><sp/>}<sp/>else<sp/>{
+
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>for(i<sp/>=<sp/>first;<sp/>i<sp/>&lt;<sp/>last;<sp/>++i){
+
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if(booms<sp/>!=<sp/>NULL)
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>booms-&gt;add(boom_row(i<sp/>*<sp/>CELL_SIZE<sp/>+<sp/>(CELL_SIZE<sp/>-<sp/>16)/2));
+
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>for(j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>FIELD_COLS;<sp/>++j)
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>field[i][j]<sp/>+=<sp/>BLOCK_BOOM;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>first<sp/>=<sp/>last;
+<sp/><sp/><sp/><sp/><sp/><sp/>}
+<sp/><sp/><sp/><sp/><sp/><sp/>ok<sp/>=<sp/>true;
+<sp/>}
+<sp/><sp/>return<sp/>ok;
+}
+
+
+//размер<sp/>фигуры<sp/>без пустых<sp/>клеток
+void<sp/>figure_size(const<sp/>figure_t&amp;<sp/>figure,<sp/>LPRECT<sp/>prc,<sp/>int<sp/>size){
+<sp/>prc-&gt;left<sp/>=<sp/>prc-&gt;top<sp/>=<sp/>prc-&gt;right<sp/>=<sp/>prc-&gt;bottom<sp/>=<sp/>-1;
+<sp/><sp/>for(int<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>figure.size;<sp/>++i){
+<sp/><sp/><sp/><sp/><sp/><sp/>for(int<sp/>j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>figure.size;<sp/>++j){
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if(figure.figure[i][j]<sp/>==<sp/>BLOCK_NONE)
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>continue;
+
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if((prc-&gt;left<sp/>==<sp/>-1)<sp/>||<sp/>(prc-&gt;left<sp/>&gt;<sp/>j))
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>prc-&gt;left<sp/>=<sp/>j;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if((prc-&gt;right<sp/>==<sp/>-1)<sp/>||<sp/>(prc-&gt;right<sp/>&lt;<sp/>j))
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>prc-&gt;right<sp/>=<sp/>j;
+
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if((prc-&gt;top<sp/>==<sp/>-1)<sp/>||<sp/>(prc-&gt;top<sp/>&gt;<sp/>i))
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>prc-&gt;top<sp/>=<sp/>i;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if((prc-&gt;bottom<sp/>==<sp/>-1)<sp/>||<sp/>(prc-&gt;bottom<sp/>&lt;<sp/>i))
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>prc-&gt;bottom<sp/>=<sp/>i;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/>}
+<sp/><sp/>}
+<sp/><sp/>prc-&gt;left<sp/><sp/>*=<sp/>size;
+<sp/><sp/><sp/><sp/>prc-&gt;top<sp/><sp/><sp/>*=<sp/>size;
+<sp/><sp/><sp/><sp/>prc-&gt;right<sp/><sp/>=<sp/>(prc-&gt;right<sp/><sp/>+<sp/>1)<sp/>*<sp/>size;
+<sp/><sp/><sp/><sp/>prc-&gt;bottom<sp/>=<sp/>(prc-&gt;bottom<sp/>+<sp/>1)<sp/>*<sp/>size;
+}
+
+
+//----------------------------------------------------------------------------------------------------------
+
+
+static<sp/>LPCSTR<sp/>_next_scan(LPCSTR<sp/>s,<sp/>int&amp;<sp/>v){
+<sp/>int<sp/>n;
+<sp/>if(sscanf(s,<sp/>&quot;%d%n&quot;,<sp/>&amp;v,<sp/>&amp;n)<sp/>==<sp/>1)
+<sp/><sp/><sp/><sp/><sp/>return<sp/>s<sp/>+<sp/>n;
+<sp/><sp/>return<sp/>NULL;
+}
+
+
+void*<sp/>operator<sp/>new<sp/>(size_t<sp/>size){
+<sp/>return<sp/>HeapAlloc(GetProcessHeap(),<sp/>0,<sp/>static_cast&lt;DWORD&gt;(size));
+}
+
+
+void<sp/>operator<sp/>delete<sp/>(void*<sp/>p){
+<sp/><sp/><sp/>if(p<sp/>!=<sp/>NULL)
+<sp/><sp/><sp/><sp/><sp/><sp/>HeapFree(GetProcessHeap(),<sp/>0,<sp/>p);
+}
+</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="util_8cpp_1a8647f99c56b7396f2c858a366936c5bc" kindref="member">figure_reverse_horz</ref>(figure_t&amp;<sp/>src){</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0,<sp/>j<sp/>=<sp/>src.size<sp/>-<sp/>1;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(;<sp/>i<sp/>&lt;<sp/>j;<sp/>++i,<sp/>--j){</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r<sp/>=<sp/>0;<sp/>r<sp/>&lt;<sp/>src.size;<sp/>++r)</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>swap_value(src[r][i],<sp/>src[r][j]);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="96"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="comment">//реверсирование<sp/>столбцов</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="util_8cpp_1aa01b520028a67fd9b09d9ba7b1a3308d" kindref="member">figure_reverse_vert</ref>(figure_t&amp;<sp/>src){</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0,<sp/>j<sp/>=<sp/>src.size<sp/>-<sp/>1;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(;<sp/>i<sp/>&lt;<sp/>j;<sp/>++i,<sp/>--j){</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>c<sp/>=<sp/>0;<sp/>c<sp/>&lt;<sp/>src.size;<sp/>++c)</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>swap_value(src[i][c],<sp/>src[j][c]);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="106"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="comment">//транспонирование</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="util_8cpp_1a2845e09fef63a9ff3609366417723ffd" kindref="member">figure_transponse</ref>(figure_t&amp;<sp/>dst,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>figure_t&amp;<sp/>src){</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>dst.size<sp/>=<sp/>src.size;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>src.size;<sp/>++i){</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>src.size;<sp/>++j)</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dst[j][i]<sp/>=<sp/>src[i][j];</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="116"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="comment">//транспонирование</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="util_8cpp_1a2845e09fef63a9ff3609366417723ffd" kindref="member">figure_transponse</ref>(figure_t&amp;<sp/>src){</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>src.size;<sp/>++i){</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>src.size;<sp/>++j)</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>swap_value(src[j][i],<sp/>src[i][j]);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="125"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight><highlight class="comment">//изменение void<sp/>figure_set(figure_t&amp;<sp/>src,<sp/>int<sp/>val){
+<sp/><sp/><sp/><sp/>for(int<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>src.size;<sp/>++i){
+<sp/><sp/><sp/><sp/><sp/>for(int<sp/>j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>src.size;<sp/>++j){
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if(src[i][j]<sp/>!=<sp/>BLOCK_NONE)
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>src[i][j]<sp/>=<sp/>val;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/>}
+<sp/><sp/>}
+}
+
+
+//вращение
+bool<sp/>figure_rotate(int<sp/>x,<sp/>int<sp/>y,<sp/>figure_t&amp;<sp/>figure,<sp/>int<sp/>field[][FIELD_COLS]){
+<sp/><sp/>int<sp/>i,<sp/>j,<sp/>col,<sp/>row;
+<sp/><sp/><sp/><sp/>figure_t<sp/>temp;
+
+<sp/><sp/><sp/><sp/>//вращение
+<sp/>memset(&amp;temp,<sp/>0,<sp/>sizeof(temp));
+<sp/><sp/><sp/><sp/>figure_transponse(temp,<sp/>figure);
+<sp/><sp/><sp/>figure_reverse_vert(temp);
+
+<sp/><sp/><sp/><sp/>for(i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>temp.size;<sp/>++i){
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>for(j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>temp.size;<sp/>++j){
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if(temp[i][j]<sp/>==<sp/>BLOCK_NONE)
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>continue;
+
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>col<sp/>=<sp/>x<sp/>+<sp/>j;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>row<sp/>=<sp/>(y<sp/>+<sp/>i<sp/>*<sp/>CELL_SIZE)<sp/>/<sp/>CELL_SIZE;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if(row<sp/>&lt;<sp/>0)
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>continue;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>else<sp/>if((col<sp/>&lt;<sp/>0)<sp/>||<sp/>(col<sp/>&gt;=<sp/>FIELD_COLS)<sp/>||<sp/>(row<sp/>&gt;=<sp/>FIELD_ROWS))
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>false;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>else<sp/>if(field[row][col]<sp/>&gt;<sp/>BLOCK_NONE)
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>false;
+
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>row<sp/>=<sp/>((y<sp/>+<sp/>CELL_SIZE)<sp/>+<sp/>i<sp/>*<sp/>CELL_SIZE)<sp/>/<sp/>CELL_SIZE;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if((row<sp/>&gt;=<sp/>FIELD_ROWS)<sp/>||<sp/>(field[row][col]<sp/>&gt;<sp/>BLOCK_NONE))
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>false;
+<sp/><sp/><sp/><sp/><sp/><sp/>}
+<sp/><sp/>}
+<sp/><sp/>memcpy(&amp;figure,<sp/>&amp;temp,<sp/>sizeof(temp));
+<sp/><sp/>return<sp/>true;
+}
+
+
+//проверка<sp/>на<sp/>движение<sp/>влево или вправо
+bool<sp/>is_move_horz(int<sp/>x,<sp/>int<sp/>y,<sp/>const<sp/>figure_t&amp;<sp/>figure,<sp/>int<sp/>field[][FIELD_COLS],<sp/>int<sp/>velocity,<sp/>bool<sp/>left){
+<sp/>int<sp/>col,<sp/>row;
+<sp/><sp/>x<sp/>=<sp/>(left)<sp/>?<sp/>x<sp/>-<sp/>1<sp/>:<sp/>x<sp/>+<sp/>1;
+<sp/><sp/><sp/><sp/>for(int<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>figure.size;<sp/>++i){
+<sp/><sp/><sp/><sp/><sp/><sp/>for(int<sp/>j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>figure.size;<sp/>++j){
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if(figure.figure[i][j]<sp/>&gt;<sp/>BLOCK_NONE){
+
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>col<sp/>=<sp/>x<sp/>+<sp/>j;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>row<sp/>=<sp/>(y<sp/>+<sp/>velocity<sp/>+<sp/>i<sp/>*<sp/>CELL_SIZE)<sp/>/<sp/>CELL_SIZE;
+
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if((col<sp/>&lt;<sp/>0)<sp/>||<sp/>(col<sp/>&gt;=<sp/>FIELD_COLS)<sp/>||<sp/>(row<sp/>&gt;=<sp/>FIELD_ROWS))
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>false;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>else<sp/>if(row<sp/>&lt;<sp/>0)
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>continue;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>else<sp/>if(field[row][col]<sp/>&gt;<sp/>BLOCK_NONE)
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>false;
+
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>row<sp/>=<sp/>((y<sp/>+<sp/>CELL_SIZE<sp/>-<sp/>velocity)<sp/>+<sp/>i<sp/>*<sp/>CELL_SIZE)<sp/>/<sp/>CELL_SIZE;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if((row<sp/>&gt;=<sp/>FIELD_ROWS)<sp/>||<sp/>(field[row][col]<sp/>&gt;<sp/>BLOCK_NONE))
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>false;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}
+<sp/><sp/><sp/><sp/><sp/><sp/>}
+<sp/><sp/>}
+<sp/><sp/>return<sp/>true;
+}
+
+
+//проверка<sp/>на<sp/>движение<sp/>вниз
+BOOL<sp/>is_move_down(int<sp/>x,<sp/>int<sp/>y,<sp/>const<sp/>figure_t&amp;<sp/>figure,<sp/>int<sp/>step,<sp/>int<sp/>field[][FIELD_COLS]){
+<sp/><sp/>int<sp/>col,<sp/>row;
+<sp/><sp/>y<sp/>+=<sp/>CELL_SIZE<sp/>+<sp/>step;
+<sp/>for(int<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>figure.size;<sp/>++i){
+<sp/><sp/><sp/><sp/><sp/><sp/>for(int<sp/>j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>figure.size;<sp/>++j){
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if(figure[i][j]<sp/>==<sp/>BLOCK_NONE)
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>continue;
+
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>col<sp/>=<sp/>x<sp/>+<sp/>j;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>row<sp/>=<sp/>(y<sp/>+<sp/>i<sp/>*<sp/>CELL_SIZE)<sp/>/<sp/>CELL_SIZE;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if(row<sp/>&lt;<sp/>0)
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>continue;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>else<sp/>if((row<sp/>&gt;=<sp/>FIELD_ROWS)<sp/>||<sp/>(field[row][col]<sp/>&gt;<sp/>BLOCK_NONE))
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>FALSE;
+<sp/><sp/><sp/><sp/><sp/><sp/>}
+<sp/><sp/>}
+<sp/><sp/>return<sp/>TRUE;
+}
+
+
+//присвoить фигуру<sp/>полю
+void<sp/>figure_put_field(int<sp/>x,<sp/>int<sp/>y,<sp/>const<sp/>figure_t&amp;<sp/>figure,<sp/>int<sp/>field[][FIELD_COLS]){
+<sp/><sp/><sp/>int<sp/>row,<sp/>col;
+<sp/><sp/>y<sp/>+=<sp/>CELL_MID;
+<sp/>for(int<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>figure.size;<sp/>++i){
+<sp/><sp/><sp/><sp/><sp/><sp/>for(int<sp/>j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>figure.size;<sp/>++j){
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>col<sp/>=<sp/>x<sp/>+<sp/>j;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>row<sp/>=<sp/>(y<sp/>+<sp/>i<sp/>*<sp/>CELL_SIZE)<sp/>/<sp/>CELL_SIZE;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if((col<sp/>&gt;=<sp/>0<sp/>&amp;&amp;<sp/>col<sp/>&lt;<sp/>FIELD_COLS)<sp/>&amp;&amp;<sp/>(row<sp/>&gt;=<sp/>0<sp/>&amp;&amp;<sp/>row<sp/>&lt;<sp/>FIELD_ROWS)){
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if(field[row][col]<sp/>==<sp/>BLOCK_NONE)
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>field[row][col]<sp/>=<sp/>figure.figure[i][j];
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}
+<sp/><sp/><sp/><sp/><sp/><sp/>}
+<sp/><sp/>}
+}
+
+
+//поиск линии
+static<sp/>int<sp/>field_find_line(int<sp/>field[][FIELD_COLS],<sp/>int&amp;<sp/>last,<sp/>int<sp/>row<sp/>=<sp/>0){
+<sp/>int<sp/><sp/>j,<sp/>first<sp/>=<sp/>-1;
+<sp/><sp/><sp/><sp/>last<sp/>=<sp/>-1;
+<sp/>for(int<sp/>i<sp/>=<sp/>row;<sp/>i<sp/>&lt;<sp/>FIELD_ROWS;<sp/>++i){
+<sp/><sp/><sp/><sp/><sp/>j<sp/>=<sp/>0;
+<sp/><sp/><sp/><sp/><sp/>while((j<sp/>&lt;<sp/>FIELD_COLS)<sp/>&amp;&amp;<sp/>(field[i][j]<sp/>!=<sp/>BLOCK_NONE))
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>++j;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/>
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/>if(j<sp/>==<sp/>FIELD_COLS){
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>first<sp/>=<sp/>i;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>break;
+<sp/><sp/><sp/><sp/><sp/>}
+<sp/><sp/>}
+
+<sp/>if(first<sp/>==<sp/>-1)
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>-1;
+
+<sp/><sp/><sp/><sp/>last<sp/>=<sp/>first<sp/>+<sp/>1;
+<sp/><sp/>for(int<sp/>r<sp/>=<sp/>first<sp/>+<sp/>1;<sp/>r<sp/>&lt;<sp/>FIELD_ROWS;<sp/>++r){
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/>j<sp/>=<sp/>0;
+<sp/><sp/><sp/><sp/><sp/>while((j<sp/>&lt;<sp/>FIELD_COLS)<sp/>&amp;&amp;<sp/>(field[r][j]<sp/>!=<sp/>BLOCK_NONE))
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>++j;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/>
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/>if(j<sp/>==<sp/>FIELD_COLS)
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>last<sp/>=<sp/>r<sp/>+<sp/>1;
+<sp/><sp/><sp/><sp/><sp/><sp/>else
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>break;
+<sp/>}
+<sp/><sp/>return<sp/>first;
+}
+
+
+//пометка или удаление<sp/>линии для<sp/>взрыва
+bool<sp/>field_remove(int<sp/>field[][FIELD_COLS],<sp/>bool<sp/>line_erase,<sp/>pod_block&lt;boom_row,<sp/>FIELD_ROWS&gt;*<sp/>booms){
+<sp/><sp/>bool<sp/><sp/><sp/>ok<sp/>=<sp/>false;
+<sp/>int<sp/>first<sp/>=<sp/>0,<sp/>last,<sp/>i,<sp/>j,<sp/>n;
+
+<sp/>if(!line_erase<sp/>&amp;&amp;<sp/>(booms<sp/>!=<sp/>NULL))
+<sp/><sp/><sp/><sp/><sp/>booms-&gt;reset();
+
+<sp/><sp/><sp/>while((first<sp/>=<sp/>field_find_line(field,<sp/>last,<sp/>first))<sp/>!=<sp/>-1){
+
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/>if(line_erase){
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>n<sp/>=<sp/>last<sp/>-<sp/>first;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>for(i<sp/>=<sp/>last<sp/>-<sp/>1;<sp/>i<sp/>&gt;<sp/>n;<sp/>--i){
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>for(j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>FIELD_COLS;<sp/>++j)
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>field[i][j]<sp/>=<sp/>field[i<sp/>-<sp/>n][j];
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}
+
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>for(i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>n;<sp/>++i)
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>memset(field[i],<sp/>0,<sp/>FIELD_COLS<sp/>*<sp/>sizeof(int));
+<sp/><sp/><sp/><sp/><sp/>}<sp/>else<sp/>{
+
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>for(i<sp/>=<sp/>first;<sp/>i<sp/>&lt;<sp/>last;<sp/>++i){
+
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if(booms<sp/>!=<sp/>NULL)
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>booms-&gt;add(boom_row(i<sp/>*<sp/>CELL_SIZE<sp/>+<sp/>(CELL_SIZE<sp/>-<sp/>16)/2));
+
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>for(j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>FIELD_COLS;<sp/>++j)
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>field[i][j]<sp/>+=<sp/>BLOCK_BOOM;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>first<sp/>=<sp/>last;
+<sp/><sp/><sp/><sp/><sp/><sp/>}
+<sp/><sp/><sp/><sp/><sp/><sp/>ok<sp/>=<sp/>true;
+<sp/>}
+<sp/><sp/>return<sp/>ok;
+}
+
+
+//размер<sp/>фигуры<sp/>без пустых<sp/>клеток
+void<sp/>figure_size(const<sp/>figure_t&amp;<sp/>figure,<sp/>LPRECT<sp/>prc,<sp/>int<sp/>size){
+<sp/>prc-&gt;left<sp/>=<sp/>prc-&gt;top<sp/>=<sp/>prc-&gt;right<sp/>=<sp/>prc-&gt;bottom<sp/>=<sp/>-1;
+<sp/><sp/>for(int<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>figure.size;<sp/>++i){
+<sp/><sp/><sp/><sp/><sp/><sp/>for(int<sp/>j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>figure.size;<sp/>++j){
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if(figure.figure[i][j]<sp/>==<sp/>BLOCK_NONE)
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>continue;
+
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if((prc-&gt;left<sp/>==<sp/>-1)<sp/>||<sp/>(prc-&gt;left<sp/>&gt;<sp/>j))
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>prc-&gt;left<sp/>=<sp/>j;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if((prc-&gt;right<sp/>==<sp/>-1)<sp/>||<sp/>(prc-&gt;right<sp/>&lt;<sp/>j))
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>prc-&gt;right<sp/>=<sp/>j;
+
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if((prc-&gt;top<sp/>==<sp/>-1)<sp/>||<sp/>(prc-&gt;top<sp/>&gt;<sp/>i))
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>prc-&gt;top<sp/>=<sp/>i;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if((prc-&gt;bottom<sp/>==<sp/>-1)<sp/>||<sp/>(prc-&gt;bottom<sp/>&lt;<sp/>i))
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>prc-&gt;bottom<sp/>=<sp/>i;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/>}
+<sp/><sp/>}
+<sp/><sp/>prc-&gt;left<sp/><sp/>*=<sp/>size;
+<sp/><sp/><sp/><sp/>prc-&gt;top<sp/><sp/><sp/>*=<sp/>size;
+<sp/><sp/><sp/><sp/>prc-&gt;right<sp/><sp/>=<sp/>(prc-&gt;right<sp/><sp/>+<sp/>1)<sp/>*<sp/>size;
+<sp/><sp/><sp/><sp/>prc-&gt;bottom<sp/>=<sp/>(prc-&gt;bottom<sp/>+<sp/>1)<sp/>*<sp/>size;
+}
+
+
+//----------------------------------------------------------------------------------------------------------
+
+
+static<sp/>LPCSTR<sp/>_next_scan(LPCSTR<sp/>s,<sp/>int&amp;<sp/>v){
+<sp/>int<sp/>n;
+<sp/>if(sscanf(s,<sp/>&quot;%d%n&quot;,<sp/>&amp;v,<sp/>&amp;n)<sp/>==<sp/>1)
+<sp/><sp/><sp/><sp/><sp/>return<sp/>s<sp/>+<sp/>n;
+<sp/><sp/>return<sp/>NULL;
+}
+
+
+void*<sp/>operator<sp/>new<sp/>(size_t<sp/>size){
+<sp/>return<sp/>HeapAlloc(GetProcessHeap(),<sp/>0,<sp/>static_cast&lt;DWORD&gt;(size));
+}
+
+
+void<sp/>operator<sp/>delete<sp/>(void*<sp/>p){
+<sp/><sp/><sp/>if(p<sp/>!=<sp/>NULL)
+<sp/><sp/><sp/><sp/><sp/><sp/>HeapFree(GetProcessHeap(),<sp/>0,<sp/>p);
+}
+</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="util_8cpp_1a6f0b48cd728baaf5dbf7a80535a96225" kindref="member">figure_set</ref>(figure_t&amp;<sp/>src,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>val){</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>src.size;<sp/>++i){</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>src.size;<sp/>++j){</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(src[i][j]<sp/>!=<sp/>BLOCK_NONE)</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>src[i][j]<sp/>=<sp/>val;</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="136"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight><highlight class="comment">//вращение</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="util_8cpp_1a8bb3704a2eaa84bc97dc1f497eb15217" kindref="member">figure_rotate</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y,<sp/>figure_t&amp;<sp/>figure,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>field[][FIELD_COLS]){</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i,<sp/>j,<sp/>col,<sp/>row;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>figure_t<sp/>temp;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//вращение</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>memset(&amp;temp,<sp/>0,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(temp));</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="util_8cpp_1a2845e09fef63a9ff3609366417723ffd" kindref="member">figure_transponse</ref>(temp,<sp/>figure);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="util_8cpp_1aa01b520028a67fd9b09d9ba7b1a3308d" kindref="member">figure_reverse_vert</ref>(temp);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>temp.size;<sp/>++i){</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>temp.size;<sp/>++j){</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(temp[i][j]<sp/>==<sp/>BLOCK_NONE)</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>col<sp/>=<sp/>x<sp/>+<sp/>j;</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>row<sp/>=<sp/>(y<sp/>+<sp/>i<sp/>*<sp/>CELL_SIZE)<sp/>/<sp/>CELL_SIZE;</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(row<sp/>&lt;<sp/>0)</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((col<sp/>&lt;<sp/>0)<sp/>||<sp/>(col<sp/>&gt;=<sp/>FIELD_COLS)<sp/>||<sp/>(row<sp/>&gt;=<sp/>FIELD_ROWS))</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(field[row][col]<sp/>&gt;<sp/>BLOCK_NONE)</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>row<sp/>=<sp/>((y<sp/>+<sp/>CELL_SIZE)<sp/>+<sp/>i<sp/>*<sp/>CELL_SIZE)<sp/>/<sp/>CELL_SIZE;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((row<sp/>&gt;=<sp/>FIELD_ROWS)<sp/>||<sp/>(field[row][col]<sp/>&gt;<sp/>BLOCK_NONE))</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/>memcpy(&amp;figure,<sp/>&amp;temp,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(temp));</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="170"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight><highlight class="comment">//проверка<sp/>на<sp/>движение<sp/>влево или вправо</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="util_8cpp_1a4a2547e434658a0407f6de208fae9cf4" kindref="member">is_move_horz</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>figure_t&amp;<sp/>figure,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>field[][FIELD_COLS],<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>velocity,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>left){</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>col,<sp/>row;</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/>x<sp/>=<sp/>(left)<sp/>?<sp/>x<sp/>-<sp/>1<sp/>:<sp/>x<sp/>+<sp/>1;</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>figure.size;<sp/>++i){</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>figure.size;<sp/>++j){</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(figure.figure[i][j]<sp/>&gt;<sp/>BLOCK_NONE){</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>col<sp/>=<sp/>x<sp/>+<sp/>j;</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>row<sp/>=<sp/>(y<sp/>+<sp/>velocity<sp/>+<sp/>i<sp/>*<sp/>CELL_SIZE)<sp/>/<sp/>CELL_SIZE;</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((col<sp/>&lt;<sp/>0)<sp/>||<sp/>(col<sp/>&gt;=<sp/>FIELD_COLS)<sp/>||<sp/>(row<sp/>&gt;=<sp/>FIELD_ROWS))</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(row<sp/>&lt;<sp/>0)</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(field[row][col]<sp/>&gt;<sp/>BLOCK_NONE)</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>row<sp/>=<sp/>((y<sp/>+<sp/>CELL_SIZE<sp/>-<sp/>velocity)<sp/>+<sp/>i<sp/>*<sp/>CELL_SIZE)<sp/>/<sp/>CELL_SIZE;</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((row<sp/>&gt;=<sp/>FIELD_ROWS)<sp/>||<sp/>(field[row][col]<sp/>&gt;<sp/>BLOCK_NONE))</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="198"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight><highlight class="comment">//проверка<sp/>на<sp/>движение<sp/>вниз</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal">BOOL<sp/><ref refid="util_8cpp_1ae2af2e4dfced0dbcaf04978c90b2fc1c" kindref="member">is_move_down</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>figure_t&amp;<sp/>figure,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>step,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>field[][FIELD_COLS]){</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>col,<sp/>row;</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/>y<sp/>+=<sp/>CELL_SIZE<sp/>+<sp/>step;</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>figure.size;<sp/>++i){</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>figure.size;<sp/>++j){</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(figure[i][j]<sp/>==<sp/>BLOCK_NONE)</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>col<sp/>=<sp/>x<sp/>+<sp/>j;</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>row<sp/>=<sp/>(y<sp/>+<sp/>i<sp/>*<sp/>CELL_SIZE)<sp/>/<sp/>CELL_SIZE;</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(row<sp/>&lt;<sp/>0)</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((row<sp/>&gt;=<sp/>FIELD_ROWS)<sp/>||<sp/>(field[row][col]<sp/>&gt;<sp/>BLOCK_NONE))</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>FALSE;</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>TRUE;</highlight></codeline>
+<codeline lineno="219"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight><highlight class="comment">//присвoить фигуру<sp/>полю</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="util_8cpp_1ae34222375b8a6a2a7d1a129489e2c5ac" kindref="member">figure_put_field</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>figure_t&amp;<sp/>figure,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>field[][FIELD_COLS]){</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>row,<sp/>col;</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/>y<sp/>+=<sp/>CELL_MID;</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>figure.size;<sp/>++i){</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>figure.size;<sp/>++j){</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>col<sp/>=<sp/>x<sp/>+<sp/>j;</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>row<sp/>=<sp/>(y<sp/>+<sp/>i<sp/>*<sp/>CELL_SIZE)<sp/>/<sp/>CELL_SIZE;</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((col<sp/>&gt;=<sp/>0<sp/>&amp;&amp;<sp/>col<sp/>&lt;<sp/>FIELD_COLS)<sp/>&amp;&amp;<sp/>(row<sp/>&gt;=<sp/>0<sp/>&amp;&amp;<sp/>row<sp/>&lt;<sp/>FIELD_ROWS)){</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(field[row][col]<sp/>==<sp/>BLOCK_NONE)</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>field[row][col]<sp/>=<sp/>figure.figure[i][j];</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="236"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight><highlight class="comment">//поиск линии static<sp/>int<sp/>field_find_line(int<sp/>field[][FIELD_COLS],<sp/>int&amp;<sp/>last,<sp/>int<sp/>row<sp/>=<sp/>0){
+<sp/><sp/><sp/>int<sp/><sp/>j,<sp/>first<sp/>=<sp/>-1;
+<sp/><sp/><sp/><sp/>last<sp/>=<sp/>-1;
+<sp/>for(int<sp/>i<sp/>=<sp/>row;<sp/>i<sp/>&lt;<sp/>FIELD_ROWS;<sp/>++i){
+<sp/><sp/><sp/><sp/><sp/>j<sp/>=<sp/>0;
+<sp/><sp/><sp/><sp/><sp/>while((j<sp/>&lt;<sp/>FIELD_COLS)<sp/>&amp;&amp;<sp/>(field[i][j]<sp/>!=<sp/>BLOCK_NONE))
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>++j;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/>
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/>if(j<sp/>==<sp/>FIELD_COLS){
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>first<sp/>=<sp/>i;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>break;
+<sp/><sp/><sp/><sp/><sp/>}
+<sp/><sp/>}
+
+<sp/>if(first<sp/>==<sp/>-1)
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>-1;
+
+<sp/><sp/><sp/><sp/>last<sp/>=<sp/>first<sp/>+<sp/>1;
+<sp/><sp/>for(int<sp/>r<sp/>=<sp/>first<sp/>+<sp/>1;<sp/>r<sp/>&lt;<sp/>FIELD_ROWS;<sp/>++r){
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/>j<sp/>=<sp/>0;
+<sp/><sp/><sp/><sp/><sp/>while((j<sp/>&lt;<sp/>FIELD_COLS)<sp/>&amp;&amp;<sp/>(field[r][j]<sp/>!=<sp/>BLOCK_NONE))
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>++j;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/>
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/>if(j<sp/>==<sp/>FIELD_COLS)
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>last<sp/>=<sp/>r<sp/>+<sp/>1;
+<sp/><sp/><sp/><sp/><sp/><sp/>else
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>break;
+<sp/>}
+<sp/><sp/>return<sp/>first;
+}
+
+
+//пометка или удаление<sp/>линии для<sp/>взрыва
+bool<sp/>field_remove(int<sp/>field[][FIELD_COLS],<sp/>bool<sp/>line_erase,<sp/>pod_block&lt;boom_row,<sp/>FIELD_ROWS&gt;*<sp/>booms){
+<sp/><sp/>bool<sp/><sp/><sp/>ok<sp/>=<sp/>false;
+<sp/>int<sp/>first<sp/>=<sp/>0,<sp/>last,<sp/>i,<sp/>j,<sp/>n;
+
+<sp/>if(!line_erase<sp/>&amp;&amp;<sp/>(booms<sp/>!=<sp/>NULL))
+<sp/><sp/><sp/><sp/><sp/>booms-&gt;reset();
+
+<sp/><sp/><sp/>while((first<sp/>=<sp/>field_find_line(field,<sp/>last,<sp/>first))<sp/>!=<sp/>-1){
+
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/>if(line_erase){
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>n<sp/>=<sp/>last<sp/>-<sp/>first;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>for(i<sp/>=<sp/>last<sp/>-<sp/>1;<sp/>i<sp/>&gt;<sp/>n;<sp/>--i){
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>for(j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>FIELD_COLS;<sp/>++j)
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>field[i][j]<sp/>=<sp/>field[i<sp/>-<sp/>n][j];
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}
+
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>for(i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>n;<sp/>++i)
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>memset(field[i],<sp/>0,<sp/>FIELD_COLS<sp/>*<sp/>sizeof(int));
+<sp/><sp/><sp/><sp/><sp/>}<sp/>else<sp/>{
+
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>for(i<sp/>=<sp/>first;<sp/>i<sp/>&lt;<sp/>last;<sp/>++i){
+
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if(booms<sp/>!=<sp/>NULL)
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>booms-&gt;add(boom_row(i<sp/>*<sp/>CELL_SIZE<sp/>+<sp/>(CELL_SIZE<sp/>-<sp/>16)/2));
+
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>for(j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>FIELD_COLS;<sp/>++j)
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>field[i][j]<sp/>+=<sp/>BLOCK_BOOM;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>first<sp/>=<sp/>last;
+<sp/><sp/><sp/><sp/><sp/><sp/>}
+<sp/><sp/><sp/><sp/><sp/><sp/>ok<sp/>=<sp/>true;
+<sp/>}
+<sp/><sp/>return<sp/>ok;
+}
+
+
+//размер<sp/>фигуры<sp/>без пустых<sp/>клеток
+void<sp/>figure_size(const<sp/>figure_t&amp;<sp/>figure,<sp/>LPRECT<sp/>prc,<sp/>int<sp/>size){
+<sp/>prc-&gt;left<sp/>=<sp/>prc-&gt;top<sp/>=<sp/>prc-&gt;right<sp/>=<sp/>prc-&gt;bottom<sp/>=<sp/>-1;
+<sp/><sp/>for(int<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>figure.size;<sp/>++i){
+<sp/><sp/><sp/><sp/><sp/><sp/>for(int<sp/>j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>figure.size;<sp/>++j){
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if(figure.figure[i][j]<sp/>==<sp/>BLOCK_NONE)
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>continue;
+
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if((prc-&gt;left<sp/>==<sp/>-1)<sp/>||<sp/>(prc-&gt;left<sp/>&gt;<sp/>j))
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>prc-&gt;left<sp/>=<sp/>j;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if((prc-&gt;right<sp/>==<sp/>-1)<sp/>||<sp/>(prc-&gt;right<sp/>&lt;<sp/>j))
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>prc-&gt;right<sp/>=<sp/>j;
+
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if((prc-&gt;top<sp/>==<sp/>-1)<sp/>||<sp/>(prc-&gt;top<sp/>&gt;<sp/>i))
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>prc-&gt;top<sp/>=<sp/>i;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if((prc-&gt;bottom<sp/>==<sp/>-1)<sp/>||<sp/>(prc-&gt;bottom<sp/>&lt;<sp/>i))
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>prc-&gt;bottom<sp/>=<sp/>i;
+<sp/><sp/><sp/><sp/><sp/><sp/><sp/>}
+<sp/><sp/>}
+<sp/><sp/>prc-&gt;left<sp/><sp/>*=<sp/>size;
+<sp/><sp/><sp/><sp/>prc-&gt;top<sp/><sp/><sp/>*=<sp/>size;
+<sp/><sp/><sp/><sp/>prc-&gt;right<sp/><sp/>=<sp/>(prc-&gt;right<sp/><sp/>+<sp/>1)<sp/>*<sp/>size;
+<sp/><sp/><sp/><sp/>prc-&gt;bottom<sp/>=<sp/>(prc-&gt;bottom<sp/>+<sp/>1)<sp/>*<sp/>size;
+}
+
+
+//----------------------------------------------------------------------------------------------------------
+
+
+static<sp/>LPCSTR<sp/>_next_scan(LPCSTR<sp/>s,<sp/>int&amp;<sp/>v){
+<sp/>int<sp/>n;
+<sp/>if(sscanf(s,<sp/>&quot;%d%n&quot;,<sp/>&amp;v,<sp/>&amp;n)<sp/>==<sp/>1)
+<sp/><sp/><sp/><sp/><sp/>return<sp/>s<sp/>+<sp/>n;
+<sp/><sp/>return<sp/>NULL;
+}
+
+
+void*<sp/>operator<sp/>new<sp/>(size_t<sp/>size){
+<sp/>return<sp/>HeapAlloc(GetProcessHeap(),<sp/>0,<sp/>static_cast&lt;DWORD&gt;(size));
+}
+
+
+void<sp/>operator<sp/>delete<sp/>(void*<sp/>p){
+<sp/><sp/><sp/>if(p<sp/>!=<sp/>NULL)
+<sp/><sp/><sp/><sp/><sp/><sp/>HeapFree(GetProcessHeap(),<sp/>0,<sp/>p);
+}
+</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>field_find_line(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>field[][FIELD_COLS],<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>last,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>row<sp/>=<sp/>0){</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/>j,<sp/>first<sp/>=<sp/>-1;</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/>last<sp/>=<sp/>-1;</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>row;<sp/>i<sp/>&lt;<sp/>FIELD_ROWS;<sp/>++i){</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>j<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">((j<sp/>&lt;<sp/>FIELD_COLS)<sp/>&amp;&amp;<sp/>(field[i][j]<sp/>!=<sp/>BLOCK_NONE))</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>++j;</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(j<sp/>==<sp/>FIELD_COLS){</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>first<sp/>=<sp/>i;</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(first<sp/>==<sp/>-1)</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/>last<sp/>=<sp/>first<sp/>+<sp/>1;</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r<sp/>=<sp/>first<sp/>+<sp/>1;<sp/>r<sp/>&lt;<sp/>FIELD_ROWS;<sp/>++r){</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>j<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">((j<sp/>&lt;<sp/>FIELD_COLS)<sp/>&amp;&amp;<sp/>(field[r][j]<sp/>!=<sp/>BLOCK_NONE))</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>++j;</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(j<sp/>==<sp/>FIELD_COLS)</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>last<sp/>=<sp/>r<sp/>+<sp/>1;</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>first;</highlight></codeline>
+<codeline lineno="269"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271"><highlight class="normal"></highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight><highlight class="comment">//пометка или удаление<sp/>линии для<sp/>взрыва</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="273"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="util_8cpp_1a107f39dc6ef15cff3e411955f9cb1088" kindref="member">field_remove</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>field[][FIELD_COLS],<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>line_erase,<sp/>pod_block&lt;boom_row,<sp/>FIELD_ROWS&gt;*<sp/>booms){</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/>ok<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>first<sp/>=<sp/>0,<sp/>last,<sp/>i,<sp/>j,<sp/>n;</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!line_erase<sp/>&amp;&amp;<sp/>(booms<sp/>!=<sp/>NULL))</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>booms-&gt;reset();</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">((first<sp/>=<sp/>field_find_line(field,<sp/>last,<sp/>first))<sp/>!=<sp/>-1){</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"></highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(line_erase){</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>n<sp/>=<sp/>last<sp/>-<sp/>first;</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(i<sp/>=<sp/>last<sp/>-<sp/>1;<sp/>i<sp/>&gt;<sp/>n;<sp/>--i){</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>FIELD_COLS;<sp/>++j)</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>field[i][j]<sp/>=<sp/>field[i<sp/>-<sp/>n][j];</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"></highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>n;<sp/>++i)</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>memset(field[i],<sp/>0,<sp/>FIELD_COLS<sp/>*<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(i<sp/>=<sp/>first;<sp/>i<sp/>&lt;<sp/>last;<sp/>++i){</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(booms<sp/>!=<sp/>NULL)</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>booms-&gt;add(boom_row(i<sp/>*<sp/>CELL_SIZE<sp/>+<sp/>(CELL_SIZE<sp/>-<sp/>16)/2));</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>FIELD_COLS;<sp/>++j)</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>field[i][j]<sp/>+=<sp/>BLOCK_BOOM;</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>first<sp/>=<sp/>last;</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ok<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ok;</highlight></codeline>
+<codeline lineno="306"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"></highlight></codeline>
+<codeline lineno="308"><highlight class="normal"></highlight></codeline>
+<codeline lineno="309"><highlight class="normal"></highlight><highlight class="comment">//размер<sp/>фигуры<sp/>без пустых<sp/>клеток</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="310"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="util_8cpp_1a7f301b7d82e7e878a6d3b4fdc89e409b" kindref="member">figure_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>figure_t&amp;<sp/>figure,<sp/>LPRECT<sp/>prc,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size){</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/>prc-&gt;left<sp/>=<sp/>prc-&gt;top<sp/>=<sp/>prc-&gt;right<sp/>=<sp/>prc-&gt;bottom<sp/>=<sp/>-1;</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>figure.size;<sp/>++i){</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>j<sp/>=<sp/>0;<sp/>j<sp/>&lt;<sp/>figure.size;<sp/>++j){</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(figure.figure[i][j]<sp/>==<sp/>BLOCK_NONE)</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"></highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((prc-&gt;left<sp/>==<sp/>-1)<sp/>||<sp/>(prc-&gt;left<sp/>&gt;<sp/>j))</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>prc-&gt;left<sp/>=<sp/>j;</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((prc-&gt;right<sp/>==<sp/>-1)<sp/>||<sp/>(prc-&gt;right<sp/>&lt;<sp/>j))</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>prc-&gt;right<sp/>=<sp/>j;</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"></highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((prc-&gt;top<sp/>==<sp/>-1)<sp/>||<sp/>(prc-&gt;top<sp/>&gt;<sp/>i))</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>prc-&gt;top<sp/>=<sp/>i;</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((prc-&gt;bottom<sp/>==<sp/>-1)<sp/>||<sp/>(prc-&gt;bottom<sp/>&lt;<sp/>i))</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>prc-&gt;bottom<sp/>=<sp/>i;</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/><sp/><sp/>prc-&gt;left<sp/><sp/>*=<sp/>size;</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"><sp/><sp/><sp/><sp/>prc-&gt;top<sp/><sp/><sp/>*=<sp/>size;</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><sp/>prc-&gt;right<sp/><sp/>=<sp/>(prc-&gt;right<sp/><sp/>+<sp/>1)<sp/>*<sp/>size;</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/>prc-&gt;bottom<sp/>=<sp/>(prc-&gt;bottom<sp/>+<sp/>1)<sp/>*<sp/>size;</highlight></codeline>
+<codeline lineno="332"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"></highlight></codeline>
+<codeline lineno="334"><highlight class="normal"></highlight></codeline>
+<codeline lineno="335"><highlight class="normal"></highlight><highlight class="comment">//----------------------------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="336"><highlight class="normal"></highlight></codeline>
+<codeline lineno="337"><highlight class="normal"></highlight></codeline>
+<codeline lineno="338"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>LPCSTR<sp/>_next_scan(LPCSTR<sp/>s,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>v){</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n;</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(sscanf(s,<sp/></highlight><highlight class="stringliteral">&quot;%d%n&quot;</highlight><highlight class="normal">,<sp/>&amp;v,<sp/>&amp;n)<sp/>==<sp/>1)</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>s<sp/>+<sp/>n;</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NULL;</highlight></codeline>
+<codeline lineno="343"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"></highlight></codeline>
+<codeline lineno="345"><highlight class="normal"></highlight></codeline>
+<codeline lineno="346"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size){</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>HeapAlloc(GetProcessHeap(),<sp/>0,<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="normal">DWORD</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(size));</highlight></codeline>
+<codeline lineno="348"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"></highlight></codeline>
+<codeline lineno="350"><highlight class="normal"></highlight></codeline>
+<codeline lineno="351"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">operator</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>p){</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(p<sp/>!=<sp/>NULL)</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HeapFree(GetProcessHeap(),<sp/>0,<sp/>p);</highlight></codeline>
+<codeline lineno="354"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="util.cpp"/>
+  </compounddef>
+</doxygen>

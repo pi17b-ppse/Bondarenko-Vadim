@@ -1,0 +1,121 @@
+\hypertarget{util_8cpp}{}\doxysection{util.\+cpp File Reference}
+\label{util_8cpp}\index{util.cpp@{util.cpp}}
+{\ttfamily \#include \char`\"{}game.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{util_8cpp_a7af5ccd4a679701a1ab60b6e3c05c419}{figures\+\_\+load}} (pod\+\_\+array$<$ figure\+\_\+t $>$ \&fgs, HINSTANCE hinst, LPCWSTR filename, LPCWSTR type)
+\item 
+void \mbox{\hyperlink{util_8cpp_a8647f99c56b7396f2c858a366936c5bc}{figure\+\_\+reverse\+\_\+horz}} (figure\+\_\+t \&src)
+\item 
+void \mbox{\hyperlink{util_8cpp_aa01b520028a67fd9b09d9ba7b1a3308d}{figure\+\_\+reverse\+\_\+vert}} (figure\+\_\+t \&src)
+\item 
+void \mbox{\hyperlink{util_8cpp_a2845e09fef63a9ff3609366417723ffd}{figure\+\_\+transponse}} (figure\+\_\+t \&dst, const figure\+\_\+t \&src)
+\item 
+void \mbox{\hyperlink{util_8cpp_a3b58754044721a7b3e5db1019120127e}{figure\+\_\+transponse}} (figure\+\_\+t \&src)
+\item 
+void \mbox{\hyperlink{util_8cpp_a6f0b48cd728baaf5dbf7a80535a96225}{figure\+\_\+set}} (figure\+\_\+t \&src, int val)
+\item 
+bool \mbox{\hyperlink{util_8cpp_a8bb3704a2eaa84bc97dc1f497eb15217}{figure\+\_\+rotate}} (int x, int y, figure\+\_\+t \&figure, int field\mbox{[}$\,$\mbox{]}\mbox{[}FIELD\+\_\+\+COLS\mbox{]})
+\item 
+bool \mbox{\hyperlink{util_8cpp_a4a2547e434658a0407f6de208fae9cf4}{is\+\_\+move\+\_\+horz}} (int x, int y, const figure\+\_\+t \&figure, int field\mbox{[}$\,$\mbox{]}\mbox{[}FIELD\+\_\+\+COLS\mbox{]}, int velocity, bool left)
+\item 
+BOOL \mbox{\hyperlink{util_8cpp_ae2af2e4dfced0dbcaf04978c90b2fc1c}{is\+\_\+move\+\_\+down}} (int x, int y, const figure\+\_\+t \&figure, int step, int field\mbox{[}$\,$\mbox{]}\mbox{[}FIELD\+\_\+\+COLS\mbox{]})
+\item 
+void \mbox{\hyperlink{util_8cpp_ae34222375b8a6a2a7d1a129489e2c5ac}{figure\+\_\+put\+\_\+field}} (int x, int y, const figure\+\_\+t \&figure, int field\mbox{[}$\,$\mbox{]}\mbox{[}FIELD\+\_\+\+COLS\mbox{]})
+\item 
+bool \mbox{\hyperlink{util_8cpp_a107f39dc6ef15cff3e411955f9cb1088}{field\+\_\+remove}} (int field\mbox{[}$\,$\mbox{]}\mbox{[}FIELD\+\_\+\+COLS\mbox{]}, bool line\+\_\+erase, pod\+\_\+block$<$ boom\+\_\+row, FIELD\+\_\+\+ROWS $>$ $\ast$booms)
+\item 
+void \mbox{\hyperlink{util_8cpp_a7f301b7d82e7e878a6d3b4fdc89e409b}{figure\+\_\+size}} (const figure\+\_\+t \&figure, LPRECT prc, int size)
+\item 
+void $\ast$ \mbox{\hyperlink{util_8cpp_a205ed048fdf5259c2e8e0cb60ee8f719}{operator new}} (size\+\_\+t size)
+\item 
+void \mbox{\hyperlink{util_8cpp_a86107594327f3a001230df9802cd4422}{operator delete}} (void $\ast$p)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{util_8cpp_a107f39dc6ef15cff3e411955f9cb1088}\label{util_8cpp_a107f39dc6ef15cff3e411955f9cb1088}} 
+\index{util.cpp@{util.cpp}!field\_remove@{field\_remove}}
+\index{field\_remove@{field\_remove}!util.cpp@{util.cpp}}
+\doxysubsubsection{\texorpdfstring{field\_remove()}{field\_remove()}}
+{\footnotesize\ttfamily bool field\+\_\+remove (\begin{DoxyParamCaption}\item[{int}]{field\mbox{[}$\,$\mbox{]}\mbox{[}\+FIELD\+\_\+\+COLS\mbox{]},  }\item[{bool}]{line\+\_\+erase,  }\item[{pod\+\_\+block$<$ boom\+\_\+row, FIELD\+\_\+\+ROWS $>$ $\ast$}]{booms }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{util_8cpp_ae34222375b8a6a2a7d1a129489e2c5ac}\label{util_8cpp_ae34222375b8a6a2a7d1a129489e2c5ac}} 
+\index{util.cpp@{util.cpp}!figure\_put\_field@{figure\_put\_field}}
+\index{figure\_put\_field@{figure\_put\_field}!util.cpp@{util.cpp}}
+\doxysubsubsection{\texorpdfstring{figure\_put\_field()}{figure\_put\_field()}}
+{\footnotesize\ttfamily void figure\+\_\+put\+\_\+field (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{const figure\+\_\+t \&}]{figure,  }\item[{int}]{field\mbox{[}$\,$\mbox{]}\mbox{[}\+FIELD\+\_\+\+COLS\mbox{]} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{util_8cpp_a8647f99c56b7396f2c858a366936c5bc}\label{util_8cpp_a8647f99c56b7396f2c858a366936c5bc}} 
+\index{util.cpp@{util.cpp}!figure\_reverse\_horz@{figure\_reverse\_horz}}
+\index{figure\_reverse\_horz@{figure\_reverse\_horz}!util.cpp@{util.cpp}}
+\doxysubsubsection{\texorpdfstring{figure\_reverse\_horz()}{figure\_reverse\_horz()}}
+{\footnotesize\ttfamily void figure\+\_\+reverse\+\_\+horz (\begin{DoxyParamCaption}\item[{figure\+\_\+t \&}]{src }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{util_8cpp_aa01b520028a67fd9b09d9ba7b1a3308d}\label{util_8cpp_aa01b520028a67fd9b09d9ba7b1a3308d}} 
+\index{util.cpp@{util.cpp}!figure\_reverse\_vert@{figure\_reverse\_vert}}
+\index{figure\_reverse\_vert@{figure\_reverse\_vert}!util.cpp@{util.cpp}}
+\doxysubsubsection{\texorpdfstring{figure\_reverse\_vert()}{figure\_reverse\_vert()}}
+{\footnotesize\ttfamily void figure\+\_\+reverse\+\_\+vert (\begin{DoxyParamCaption}\item[{figure\+\_\+t \&}]{src }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{util_8cpp_a8bb3704a2eaa84bc97dc1f497eb15217}\label{util_8cpp_a8bb3704a2eaa84bc97dc1f497eb15217}} 
+\index{util.cpp@{util.cpp}!figure\_rotate@{figure\_rotate}}
+\index{figure\_rotate@{figure\_rotate}!util.cpp@{util.cpp}}
+\doxysubsubsection{\texorpdfstring{figure\_rotate()}{figure\_rotate()}}
+{\footnotesize\ttfamily bool figure\+\_\+rotate (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{figure\+\_\+t \&}]{figure,  }\item[{int}]{field\mbox{[}$\,$\mbox{]}\mbox{[}\+FIELD\+\_\+\+COLS\mbox{]} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{util_8cpp_a6f0b48cd728baaf5dbf7a80535a96225}\label{util_8cpp_a6f0b48cd728baaf5dbf7a80535a96225}} 
+\index{util.cpp@{util.cpp}!figure\_set@{figure\_set}}
+\index{figure\_set@{figure\_set}!util.cpp@{util.cpp}}
+\doxysubsubsection{\texorpdfstring{figure\_set()}{figure\_set()}}
+{\footnotesize\ttfamily void figure\+\_\+set (\begin{DoxyParamCaption}\item[{figure\+\_\+t \&}]{src,  }\item[{int}]{val }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{util_8cpp_a7f301b7d82e7e878a6d3b4fdc89e409b}\label{util_8cpp_a7f301b7d82e7e878a6d3b4fdc89e409b}} 
+\index{util.cpp@{util.cpp}!figure\_size@{figure\_size}}
+\index{figure\_size@{figure\_size}!util.cpp@{util.cpp}}
+\doxysubsubsection{\texorpdfstring{figure\_size()}{figure\_size()}}
+{\footnotesize\ttfamily void figure\+\_\+size (\begin{DoxyParamCaption}\item[{const figure\+\_\+t \&}]{figure,  }\item[{LPRECT}]{prc,  }\item[{int}]{size }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{util_8cpp_a2845e09fef63a9ff3609366417723ffd}\label{util_8cpp_a2845e09fef63a9ff3609366417723ffd}} 
+\index{util.cpp@{util.cpp}!figure\_transponse@{figure\_transponse}}
+\index{figure\_transponse@{figure\_transponse}!util.cpp@{util.cpp}}
+\doxysubsubsection{\texorpdfstring{figure\_transponse()}{figure\_transponse()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void figure\+\_\+transponse (\begin{DoxyParamCaption}\item[{figure\+\_\+t \&}]{dst,  }\item[{const figure\+\_\+t \&}]{src }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{util_8cpp_a3b58754044721a7b3e5db1019120127e}\label{util_8cpp_a3b58754044721a7b3e5db1019120127e}} 
+\index{util.cpp@{util.cpp}!figure\_transponse@{figure\_transponse}}
+\index{figure\_transponse@{figure\_transponse}!util.cpp@{util.cpp}}
+\doxysubsubsection{\texorpdfstring{figure\_transponse()}{figure\_transponse()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void figure\+\_\+transponse (\begin{DoxyParamCaption}\item[{figure\+\_\+t \&}]{src }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{util_8cpp_a7af5ccd4a679701a1ab60b6e3c05c419}\label{util_8cpp_a7af5ccd4a679701a1ab60b6e3c05c419}} 
+\index{util.cpp@{util.cpp}!figures\_load@{figures\_load}}
+\index{figures\_load@{figures\_load}!util.cpp@{util.cpp}}
+\doxysubsubsection{\texorpdfstring{figures\_load()}{figures\_load()}}
+{\footnotesize\ttfamily bool figures\+\_\+load (\begin{DoxyParamCaption}\item[{pod\+\_\+array$<$ figure\+\_\+t $>$ \&}]{fgs,  }\item[{HINSTANCE}]{hinst,  }\item[{LPCWSTR}]{filename,  }\item[{LPCWSTR}]{type }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{util_8cpp_ae2af2e4dfced0dbcaf04978c90b2fc1c}\label{util_8cpp_ae2af2e4dfced0dbcaf04978c90b2fc1c}} 
+\index{util.cpp@{util.cpp}!is\_move\_down@{is\_move\_down}}
+\index{is\_move\_down@{is\_move\_down}!util.cpp@{util.cpp}}
+\doxysubsubsection{\texorpdfstring{is\_move\_down()}{is\_move\_down()}}
+{\footnotesize\ttfamily BOOL is\+\_\+move\+\_\+down (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{const figure\+\_\+t \&}]{figure,  }\item[{int}]{step,  }\item[{int}]{field\mbox{[}$\,$\mbox{]}\mbox{[}\+FIELD\+\_\+\+COLS\mbox{]} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{util_8cpp_a4a2547e434658a0407f6de208fae9cf4}\label{util_8cpp_a4a2547e434658a0407f6de208fae9cf4}} 
+\index{util.cpp@{util.cpp}!is\_move\_horz@{is\_move\_horz}}
+\index{is\_move\_horz@{is\_move\_horz}!util.cpp@{util.cpp}}
+\doxysubsubsection{\texorpdfstring{is\_move\_horz()}{is\_move\_horz()}}
+{\footnotesize\ttfamily bool is\+\_\+move\+\_\+horz (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{const figure\+\_\+t \&}]{figure,  }\item[{int}]{field\mbox{[}$\,$\mbox{]}\mbox{[}\+FIELD\+\_\+\+COLS\mbox{]},  }\item[{int}]{velocity,  }\item[{bool}]{left }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{util_8cpp_a86107594327f3a001230df9802cd4422}\label{util_8cpp_a86107594327f3a001230df9802cd4422}} 
+\index{util.cpp@{util.cpp}!operator delete@{operator delete}}
+\index{operator delete@{operator delete}!util.cpp@{util.cpp}}
+\doxysubsubsection{\texorpdfstring{operator delete()}{operator delete()}}
+{\footnotesize\ttfamily void operator delete (\begin{DoxyParamCaption}\item[{void $\ast$}]{p }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{util_8cpp_a205ed048fdf5259c2e8e0cb60ee8f719}\label{util_8cpp_a205ed048fdf5259c2e8e0cb60ee8f719}} 
+\index{util.cpp@{util.cpp}!operator new@{operator new}}
+\index{operator new@{operator new}!util.cpp@{util.cpp}}
+\doxysubsubsection{\texorpdfstring{operator new()}{operator new()}}
+{\footnotesize\ttfamily void$\ast$ operator new (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{size }\end{DoxyParamCaption})}
+
